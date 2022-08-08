@@ -1,0 +1,1483 @@
+2022-08-07T22:13:08.570Z verbose OVFTool[05196] [Originator@6876 sub=Default] [SSL_DB] Using C:\Users\Administrator\AppData\Roaming\VMware\ovftool_SSLDB as SSL DB
+2022-08-07T22:13:08.649Z verbose OVFTool[05196] [Originator@6876 sub=Default] Subscribing to signal: 2 (SIGINT)
+2022-08-07T22:13:08.649Z verbose OVFTool[05196] [Originator@6876 sub=Default] Subscribing to signal: 4 (SIGILL)
+2022-08-07T22:13:08.649Z verbose OVFTool[05196] [Originator@6876 sub=Default] Subscribing to signal: 22 (SIGABRT)
+2022-08-07T22:13:08.649Z verbose OVFTool[05196] [Originator@6876 sub=Default] Subscribing to signal: 8 (SIGFPE)
+2022-08-07T22:13:08.651Z verbose OVFTool[05196] [Originator@6876 sub=Default] Subscribing to signal: 15 (SIGTERM)
+2022-08-07T22:13:08.651Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing progress
+2022-08-07T22:13:08.654Z verbose OVFTool[05196] [Originator@6876 sub=Default] OvfTool Version: VMware ovftool 4.4.3 (build-18663434)
+2022-08-07T22:13:08.655Z verbose OVFTool[05196] [Originator@6876 sub=Default] Using home directory: 
+2022-08-07T22:13:08.671Z verbose OVFTool[05196] [Originator@6876 sub=Default] Curl Version: 7.78.0
+2022-08-07T22:13:08.671Z verbose OVFTool[05196] [Originator@6876 sub=Default] Done initializing libs
+2022-08-07T22:13:08.673Z verbose OVFTool[05196] [Originator@6876 sub=Default] Determining source
+2022-08-07T22:13:08.675Z verbose OVFTool[05196] [Originator@6876 sub=Default] Determining target
+2022-08-07T22:13:08.675Z verbose OVFTool[05196] [Originator@6876 sub=Default] Getting source
+2022-08-07T22:13:08.678Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:13:08.689Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:13:08.701Z verbose OVFTool[05196] [Originator@6876 sub=Default] Opening source
+2022-08-07T22:13:08.709Z verbose OVFTool[05196] [Originator@6876 sub=Default] OvfPackageSourceBase::Open
+2022-08-07T22:13:08.716Z verbose OVFTool[05196] [Originator@6876 sub=Default] Erasing open readers for VMware-Cloud-Builder-4.4.0.0-19312029_OVF10.ovf
+2022-08-07T22:13:08.734Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2022-08-07T22:13:08.765Z verbose OVFTool[05196] [Originator@6876 sub=Default] ApplyOvfTransformations with ovfRewriter started
+2022-08-07T22:13:08.765Z verbose OVFTool[05196] [Originator@6876 sub=Default] ApplyNvramFileRefTransformation started
+2022-08-07T22:13:08.765Z verbose OVFTool[05196] [Originator@6876 sub=Default] ApplyExtraConfig started
+2022-08-07T22:13:08.767Z verbose OVFTool[05196] [Originator@6876 sub=Default] Setting extra config...
+2022-08-07T22:13:08.768Z verbose OVFTool[05196] [Originator@6876 sub=Default] Filtering extra config
+2022-08-07T22:13:08.768Z verbose OVFTool[05196] [Originator@6876 sub=Default] The command line option --allowExtraConfig is specified: false
+2022-08-07T22:13:08.768Z verbose OVFTool[05196] [Originator@6876 sub=Default] The command line option --exportFlags=extraconfig is specified: false
+2022-08-07T22:13:08.771Z verbose OVFTool[05196] [Originator@6876 sub=Default] OvfPackageSourceBase parsing message bundle
+2022-08-07T22:13:08.772Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2022-08-07T22:13:08.778Z verbose OVFTool[05196] [Originator@6876 sub=Default] Validating files
+2022-08-07T22:13:08.778Z verbose OVFTool[05196] [Originator@6876 sub=Default] Getting target
+2022-08-07T22:13:08.789Z verbose OVFTool[05196] [Originator@6876 sub=Default] Connecting to vi host w4-hs6-i1209.eng.vmware.com
+2022-08-07T22:13:08.789Z verbose OVFTool[05196] [Originator@6876 sub=Default] Skip SSL verification
+2022-08-07T22:13:08.805Z verbose OVFTool[05196] [Originator@6876 sub=HttpConnectionPool-000000] LayeredHttpConnectionPool created. maxPoolConnections = 20; idleTimeout = 900000000; maxOpenConnections = 20; maxConnectionAge = 0
+2022-08-07T22:13:09.019Z verbose OVFTool[05196] [Originator@6876 sub=Default] Discovered internalvim25/7.0.3.0 from http://w4-hs6-i1209.eng.vmware.com:443/sdk/vimServiceVersions.xml
+2022-08-07T22:13:09.026Z verbose OVFTool[05196] [Originator@6876 sub=vmomi.soapStub[0]] Using VMODL version; internalvim25/7.0.3.0(vim.version.v7_0_3_0), <<last binding: <<TCP '10.203.45.65 : 65224'>, <TCP '10.203.42.1 : 443'>>>, /sdk>
+2022-08-07T22:13:09.092Z verbose OVFTool[05196] [Originator@6876 sub=Default] Connected to VI server version: 7.0.3
+2022-08-07T22:13:09.092Z verbose OVFTool[05196] [Originator@6876 sub=Default] Determine if server is a standalone host or vpxd
+2022-08-07T22:13:09.092Z verbose OVFTool[05196] [Originator@6876 sub=Default] VI API type: HostAgent
+2022-08-07T22:13:09.092Z verbose OVFTool[05196] [Originator@6876 sub=Default] Login to server based on username and password
+2022-08-07T22:13:09.094Z verbose OVFTool[05196] [Originator@6876 sub=Default] Setting VI connection message locale (via login) to: 
+2022-08-07T22:13:09.098Z verbose OVFTool[05196] [Originator@6876 sub=HttpConnectionPool-000001] LayeredHttpConnectionPool created. maxPoolConnections = 1; idleTimeout = 900000000; maxOpenConnections = 1; maxConnectionAge = 0
+2022-08-07T22:13:09.126Z verbose OVFTool[05196] [Originator@6876 sub=Default] Setup nfcService, used to get a ticket for uploading/downloading a disk.
+2022-08-07T22:13:09.142Z verbose OVFTool[05196] [Originator@6876 sub=Default] Get host or vc sslthumpprint.
+2022-08-07T22:13:09.144Z verbose OVFTool[05196] [Originator@6876 sub=Default] Keeping VI session alive
+2022-08-07T22:13:09.157Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupResourcePool on ViTarget
+2022-08-07T22:13:09.189Z verbose OVFTool[05196] [Originator@6876 sub=Default] Ovf converter is executing
+2022-08-07T22:13:09.192Z verbose OVFTool[05196] [Originator@6876 sub=Default] Starting Ovf convertion...
+2022-08-07T22:13:09.192Z verbose OVFTool[05196] [Originator@6876 sub=Default] OVF source Descriptor: <?xml version="1.0" encoding="UTF-8"?>
+--> <ovf:Envelope xmlns="http://schemas.dmtf.org/ovf/envelope/1" xmlns:ovf="http://schemas.dmtf.org/ovf/envelope/1" xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData" xmlns:vmw="http://www.vmware.com/schema/ovf" xmlns:vssd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_VirtualSystemSettingData" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+-->   <References>
+-->     <File ovf:href="VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk" ovf:id="VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk_id" ovf:size="21046722048"/>
+-->     <File ovf:href="VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk" ovf:id="VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk_id" ovf:size="11859456"/>
+-->   </References>
+-->   <NetworkSection>
+-->     <Info>List of logical networks used in the package</Info>
+-->     <Network ovf:name="Network 1">
+-->       <Description>The Network 1 network</Description>
+-->     </Network>
+-->   </NetworkSection>
+-->   <vmw:IpAssignmentSection ovf:required="false" vmw:protocols="IPv4" vmw:schemes="">
+-->     <Info>Supported IP assignment schemes</Info>
+-->   </vmw:IpAssignmentSection>
+-->   <DiskSection>
+-->     <Info>List of the virtual disks and partitions needed</Info>
+-->     <Disk ovf:capacity="100" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="system" ovf:fileRef="VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk_id" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized" ovf:populatedSize="23267573760"/>
+-->     <Disk ovf:capacity="50" ovf:capacityAllocationUnits="byte * 2^30" ovf:diskId="data" ovf:fileRef="VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk_id" ovf:format="http://www.vmware.com/interfaces/specifications/vmdk.html#streamOptimized" ovf:populatedSize="42270720"/>
+-->   </DiskSection>
+-->   <VirtualSystem ovf:id="VMware_Cloud_Builder_VM">
+-->     <Info>A virtual machine</Info>
+-->     <EulaSection>
+-->       <Info>End User License Agreement</Info>
+-->       <License ovf:msgid="license_0">VMWARE END USER LICENSE AGREEMENT
+--> 
+--> PLEASE NOTE THAT THE TERMS OF THIS END USER LICENSE AGREEMENT SHALL GOVERN YOUR USE OF THE SOFTWARE, REGARDLESS OF ANY TERMS THAT MAY APPEAR DURING THE INSTALLATION OF THE SOFTWARE.
+--> 
+--> IMPORTANT-READ CAREFULLY: BY DOWNLOADING, INSTALLING, OR USING THE SOFTWARE, YOU (THE INDIVIDUAL OR LEGAL ENTITY) AGREE TO BE BOUND BY THE TERMS OF THIS END USER LICENSE AGREEMENT (“EULA”). IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, YOU MUST NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE, AND YOU MUST DELETE OR RETURN THE UNUSED SOFTWARE TO THE VENDOR FROM WHICH YOU ACQUIRED IT WITHIN THIRTY (30) DAYS AND REQUEST A REFUND OF THE LICENSE FEE, IF ANY, THAT YOU PAID FOR THE SOFTWARE.
+--> EVALUATION LICENSE. If You are licensing the Software for evaluation purposes, Your use of the Software is only permitted in a non-production environment and for the period limited by the License Key. Notwithstanding any other provision in this EULA, an Evaluation License of the Software is provided “AS-IS” without indemnification, support or warranty of any kind, expressed or implied.
+--> 
+--> 1. DEFINITIONS.
+--> 
+--> 1.1 “Affiliate” means, with respect to a party, an entity that is directly or indirectly controlled by or is under common control with such party, where “control” means an ownership, voting or similar interest representing fifty percent (50%) or more of the total interests then outstanding of the relevant entity (but only as long as such person or entity meets these requirements).
+--> 
+--> 1.2 “Documentation” means that documentation that is generally provided to You by VMware with the Software, as revised by VMware from time to time, and which may include end user manuals, operation instructions, installation guides, release notes, and on-line help files regarding the use of the Software.
+--> 
+--> 1.3 “Guest Operating Systems” means instances of third-party operating systems licensed by You, installed in a Virtual Machine and run using the Software.
+--> 
+--> 1.4 “Intellectual Property Rights” means all worldwide intellectual property rights, including without limitation, copyrights, trademarks, service marks, trade secrets, know how, inventions, patents, patent applications, moral rights and all other proprietary rights, whether registered or unregistered.
+--> 
+--> 1.5 “License” means a license granted under Section 2.1.
+--> 
+--> 1.6 “License Key” means a serial number that enables You to activate and use the Software.
+--> 
+--> 1.7 “License Term” means the duration of a License as specified in the Order.
+--> 
+--> 1.8 “License Type” means the type of License applicable to the Software, as more fully described in the Order.
+--> 
+--> 1.9 “Open Source Software” or “OSS” means software components that are licensed under a license approved by the Open Source Initiative (“OSI”) or similar open source or freeware license and are embedded in the delivered Software.
+--> 
+--> 1.10 “Order” means a purchase order, enterprise license agreement, or other ordering document issued by You to VMware or a VMware authorized reseller that references and incorporates this EULA and is accepted by VMware as set forth in Section 4.
+--> 
+--> 1.11 “Product Guide” means the current version of the VMware Product Guide at the time of Your Order, copies of which are found at www.vmware.com/download/eula.
+--> 
+--> 1.12 “Services Terms” means VMware’s then-current Support and Subscription Contract Terms and Conditions, copies of which are found at www.vmware.com/files/pdf/support/support_terms_conditions.pdf.
+--> 
+--> 1.13 “Software” means the VMware Tools and the VMware computer programs listed on VMware’s commercial price list to which You acquire a license under an Order, together with any software code relating to the foregoing that is provided to You pursuant to a support and subscription service contract and that is not subject to a separate license agreement.
+--> 
+--> 1.14 “Territory” means the country or countries in which You have been invoiced; provided, however, that if You have been invoiced within any of the European Economic Area member states, You may deploy the corresponding Software throughout the European Economic Area.
+--> 
+--> 1.15 “Third Party Agent” means a third party delivering information technology services to You pursuant to a written contract with You.
+--> 
+--> 1.16 “Virtual Machine” means a software container that can run its own operating system and execute applications like a physical machine.
+--> 
+--> 1.17 “VMware” means VMware, Inc., a Delaware corporation, if You are purchasing Licenses or services for use in the United States and VMware International Limited, a company organized and existing under the laws of Ireland, for all other purchases.
+--> 
+--> 1.18 “VMware Tools” means the suite of utilities and drivers, Licensed by VMware under the “VMware Tools” name, that can be installed in a Guest Operating System to enhance the performance and functionality of a Guest Operating System when running in a Virtual Machine.
+--> 
+--> 2. LICENSE GRANT.
+--> 
+--> 2.1 Scope of License. Subject to the terms and conditions of this EULA, VMware grants You, during the License Term, a non-exclusive, non-transferable License to use the Software, in executable code form only, within the Territory, for Your internal operations in accordance with (a) the Documentation; (b) the License Type for which You have paid the applicable fees; (c) other applicable limitations set forth in the Order. The License to the Software is limited to the quantities specified in each applicable Order.
+--> 
+--> 2.2 Third Party Use. Under the License granted to You in Section 2.1 above, You may permit Your Third Party Agents to access, use and/or operate the Software on Your behalf for the sole purpose of delivering services to You, provided that You will be fully responsible for Your Third Party Agents’ compliance with terms and conditions of this EULA and any breach of this EULA by a Third Party Agent shall be deemed to be a breach by You.
+--> 
+--> 2.3 Permitted Copies. You may make one copy of the Software for archival purposes only. The copy shall: (a) be kept within Your possession or control; (b) include all titles, trademarks, and copyright and restricted rights notices in the original; and (c) be subject to this EULA. You may not otherwise copy the Software without VMware’s prior written consent.
+--> 
+--> 2.4 Benchmarking. You may use the Software to conduct internal performance testing and benchmarking studies. You may only publish or otherwise distribute the results of such studies to third parties as follows: (a) if with respect to VMware’s Workstation or Fusion products, only if You provide a copy of Your study to benchmark@vmware.com prior to distribution; (b) if with respect to any other Software, only if VMware has reviewed and approved of the methodology, assumptions and other parameters of the study (please contact VMware at benchmark@vmware.com to request such review and approval) prior to such publication and distribution.
+--> 
+--> 2.5 VMware Tools. You may distribute the VMware Tools (whether or not as part of the Virtual Machine You create with the Software) to third parties solely when installed in a Guest Operating System to enhance its performance and functionality when running in a Virtual Machine, provided that You will be fully responsible for such third parties’ compliance with the terms and conditions of this EULA, and any breach of this EULA by any such third party shall be deemed to be a breach of this EULA by You.
+--> 
+--> 2.6 Open Source Software. Notwithstanding anything herein to the contrary, Open Source Software is licensed to You under such OSS’s own applicable license terms, which can be found in the open_source_licenses.txt file, the Documentation or as applicable, the corresponding source files for the Software available at www.vmware.com/download/open_source.html. These OSS license terms are consistent with the license granted in Section 2, and may contain additional rights benefiting You. The OSS license terms shall take precedence over this EULA to the extent that this EULA imposes greater restrictions on You than the applicable OSS license terms.
+--> 
+--> 3. RESTRICTIONS; OWNERSHIP.
+--> 
+--> 3.1 Restrictions. You acknowledge that the Software and the structure, organization and source code of the Software constitute valuable trade secrets of VMware. Accordingly, except as expressly permitted in Section 2 or as otherwise authorized by VMware in writing, You will not and will not permit any third party to: (a) sell, lease, license, distribute, sublicense or otherwise transfer in whole or in part the Software or Documentation to any third party; (b) decompile, disassemble, reverse engineer, or otherwise attempt to derive source code from the Software, in whole or in part; (c) copy the Software, except for archival purposes, as set out in Section 2.3; (d) create, develop, license, install, use, or deploy any software or services to circumvent, enable, modify or provide access, permissions or rights which violate the technical restrictions of the Software as described in this EULA; (e) translate, modify or create derivative works based upon the Software; (f) permit any use of or access to the Software by any third party; (g) remove any product identification, proprietary, copyright or other notices contained in the Software; or (h) operate the Software on behalf of or for the benefit of any third party, including the operation of any service that is accessed by a third party, except that, for the purposes of this Section 3.1 (h), You may use the Software to deliver hosted services to Your Affiliates.
+--> 
+--> 3.2 Decompilation. Notwithstanding the foregoing, decompiling the Software is permitted to the extent the laws of the Territory give You the express right to do so to obtain information necessary to render the Software interoperable with other software; provided, however, You must first request such information from VMware (at info@vmware.com), provide all reasonably requested information to allow VMware to assess Your claim, and VMware may, in its discretion, either provide such interoperability information to You, impose reasonable conditions, including a reasonable fee, on such use of the Software, or offer to provide alternatives to ensure that VMware’s proprietary rights in the Software are protected and to reduce any adverse impact on VMware’s proprietary rights.
+--> 
+--> 3.3 Ownership. The Software and Documentation, all copies and portions thereof, and all improvements, enhancements, modifications and derivative works thereof, and all Intellectual Property Rights therein, are and shall remain the sole and exclusive property of VMware and its licensors. Your rights to use the Software and Documentation shall be limited to those expressly granted in this EULA and any applicable Order. No other rights with respect to the Software or any related Intellectual Property Rights are implied. You are not authorized to use (and shall not permit any third party to use) the Software, Documentation or any portion thereof except as expressly authorized by this EULA or the applicable Order.
+--> 
+--> 3.4 Guest Operating Systems. Certain Software allows Guest Operating Systems and application programs to run on a computer system. You acknowledge that You are responsible for obtaining and complying with any licenses necessary to operate any such third-party software.
+--> 
+--> 4. ORDER.Your Order is subject to this EULA. No Orders are binding on VMware until accepted by VMware. Orders for Software are deemed to be accepted upon VMware’s delivery of the Software included in such Order. Orders issued to VMware do not have to be signed to be valid and enforceable.
+--> 
+--> 5. AUDIT RIGHTS.
+--> 
+--> 5.1 Records. You will, during the License Term for any Software licenses acquired under this EULA (and for a period of two (2) years from the expiration of the applicable License Term), maintain accurate records of your use of the Software sufficient to demonstrate Your compliance with the terms of this EULA and all Orders.
+--> 
+--> 5.2 Audit Rights. During the period in which the You are obligated to maintain such records, VMware, or its third party auditor, may, upon reasonable notice to You, audit such records to verify that You have (a) used the Software solely in the manner authorized herein; (b) paid all applicable license fees; and (c) otherwise complied with the terms of this EULA and all Orders. VMware may conduct no more than one (1) audit in any twelve (12) month period. Audits will be conducted during normal business hours and VMware will use commercially reasonable efforts to minimize the disruption of Your normal business activities. VMware, and any third-party auditor, shall not have physical access to Your computing devices in connection with any such audit, without Your prior written consent. You will reasonably cooperate with VMware and/or its third-party auditor and will promptly pay directly to VMware any underpayments revealed by such audit. You will promptly reimburse VMware for all reasonable costs and expenses incurred by VMware for such audit if: (i) such audit reveals an underpayment by You of more than five percent (5%) of the fees payable by You to VMware for the period audited, or (ii) such audit reveals You have materially failed to maintain accurate records of Your use of the Software.
+--> 
+--> 6. SUPPORT AND SUBSCRIPTION SERVICES. Except as expressly specified in the Product Guide, VMware does not provide any support or subscription services for the Software under this EULA. You have no rights to any updates, upgrades or extensions or enhancements to the Software developed by VMware unless you separately purchase VMware support or subscription services. These support or subscription services are subject to the Services Terms.
+--> 
+--> 7. WARRANTIES.
+--> 
+--> 7.1 Software Warranty. VMware warrants to You that the Software will, for a period of ninety (90) days following delivery (“Warranty Period”), substantially conform to the applicable Documentation, provided that the Software (a) has been properly installed and used at all times and in accordance with the applicable Documentation; and (b) has not been modified or added to by persons other than VMware or its authorized representative. VMware will, at its own expense and as its sole obligation and Your exclusive remedy for any breach of the foregoing warranty, either replace the applicable Software or correct any reproducible error in the Software reported to VMware by You in writing during the Warranty Period. If VMware determines that it is unable to correct the error or replace the Software, VMware will refund to You all License fees actually paid by You, in which case the License for the applicable Software and Your right to use such Software will terminate.
+--> 
+--> 7.2 Disclaimer of Warranties. THE EXPRESS WARRANTY IN SECTION 7.1 ABOVE IS IN LIEU OF AND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE AND ITS LICENSORS DISCLAIM, ALL OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE) REGARDING OR RELATING TO THE SOFTWARE, THE DOCUMENTATION, OR ANY MATERIALS FURNISHED OR PROVIDED TO YOU UNDER THIS EULA. VMWARE AND ITS LICENSORS DO NOT WARRANT THAT THE SOFTWARE WILL OPERATE UNINTERRUPTED OR THAT IT WILL BE FREE FROM DEFECTS OR THAT THE SOFTWARE WILL MEET (OR IS DESIGNED TO MEET) YOUR BUSINESS REQUIREMENTS.
+--> 
+--> 8. INTELLECTUAL PROPERTY INDEMNIFICATION.
+--> 
+--> 8.1 Defense and Indemnification. Subject to the remainder of this Section 8, VMware shall defend You against any third party claim that the Software infringes any patent, trademark or copyright of such third party, or misappropriates a trade secret (but only to the extent that such misappropriation is not a result of Your actions) under the laws of: (a) the United States and Canada; (b) the European Economic Area; (c) Australia; (d) New Zealand; (e) Japan; or (f) the People’s Republic of China, to the extent that such countries are part of the Territory for the License ( “Infringement Claim”) and indemnify You from the resulting costs and damages finally awarded against You to such third party by a court of competent jurisdiction or agreed to in settlement; provided that You: (i) promptly provide VMware with notice of such Infringement Claim; (ii) allow VMware sole control over the defense thereof and related settlement negotiation; and (iii) reasonably cooperate in response to VMware requests for assistance. You may not settle or compromise any Infringement Claim without the prior written consent of VMware.
+--> 
+--> 8.2 Remedies. Should the Software become, or in VMware’s opinion be likely to become, the subject of an Infringement Claim, VMware will, at VMware’s option and expense either: (a) procure the rights necessary for You to make continued use of the affected Software in accordance with this EULA; (b) replace or modify the affected Software to make it non-infringing; or (c) terminate the License to the affected Software and discontinue the related support services, and, upon Your certified deletion of the affected Software, refund: (i) the fees paid by You for the License to the affected Software, less straight-line depreciation over a three (3) year useful life beginning on the date such Software was delivered; and (ii) any pre-paid service fee attributable to related support services to be delivered after the date such service is stopped. Nothing in this Section 8.2 shall limit VMware’s obligation under Section 8.1 to defend and indemnify You, provided that You replace the allegedly infringing Software upon VMware’s making alternate Software available to You and/or You discontinue using the allegedly infringing Software upon receiving VMware’s notice terminating the affected License.
+--> 
+--> 8.3 Exclusions. Notwithstanding the foregoing, VMware will have no obligation under this Section 8 or otherwise with respect to any claim based on: (a) a combination of Software with non-VMware products (other than non-VMware products that are listed on the Order and used in an unmodified form); (b) use for a purpose or in a manner for which the Software was not designed; (c) use of any older version of the Software when use of a newer VMware revision would have avoided the infringement; (d) any modification to the Software made without VMware’s express written approval; (e) any claim that relates to open source software or freeware technology or any derivatives or other adaptations thereof that is not embedded by VMware into Software listed on VMware’s commercial price list; (f) any claim that relates to Linux or Android open source software, even when it has been embedded into or distributed with the Software or (g) any Software provided on a no charge, beta or evaluation basis. THIS SECTION 8 STATES YOUR SOLE AND EXCLUSIVE REMEDY AND VMWARE’S ENTIRE LIABILITY FOR ANY INFRINGEMENT CLAIMS OR ACTIONS.
+--> 
+--> 9. LIMITATION OF LIABILITY.
+--> 
+--> 9.1 Limitation of Liability. TO THE MAXIMUM EXTENT MANDATED BY LAW, IN NO EVENT WILL VMWARE AND ITS LICENSORS BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, LOSS OF REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU. VMWARE’S AND ITS LICENSORS’ LIABILITY UNDER THIS EULA WILL NOT, IN ANY EVENT, REGARDLESS OF WHETHER THE CLAIM IS BASED IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE, EXCEED THE LICENSE FEES YOU PAID FOR THE SOFTWARE, IF ANY. THE FOREGOING LIMITATIONS SHALL APPLY REGARDLESS OF WHETHER VMWARE OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+--> 
+--> 9.2 Further Limitations. VMware’s licensors shall have no liability of any kind under this EULA and VMware’s liability with respect to any third party software embedded in the Software shall be subject to Section 9.1. You may not bring a claim under this EULA more than eighteen (18) months after the cause of action arises.
+--> 
+--> 10. TERMINATION.
+--> 
+--> 10.1 License Term. This EULA will terminate in its entirety upon the termination of the License Term, unless terminated earlier under this Section 10.
+--> 
+--> 10.2 Termination for Breach. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if: (a) You breach any provision in Section 3 and do not cure the breach within ten (10) days after receiving written notice thereof from VMware; (b) You fail to pay any portion of the fees under an applicable Order within ten (10) days after receiving written notice from VMware that payment is past due; (c) You breach any other provision of this EULA and don’t not cure the breach within thirty (30) days after receiving written notice thereof from VMware; or (d) You commit a material breach that is not capable of being cured.
+--> 
+--> 10.3 Termination for Insolvency. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if You: (a) terminate or suspend your business; (b) become insolvent, admit in writing Your inability to pay Your debts as they mature, make an assignment for the benefit of creditors; or become subject to control of a trustee, receiver or similar authority; or (c) become subject to any bankruptcy or insolvency proceeding.
+--> 
+--> 10.4 Effect of Termination. If VMware terminates this EULA under this Section 10: (a) all Licensed rights to all Software granted to You under this EULA will immediately cease to exist; and (b) You must promptly discontinue all use of all Software, and (destroy all copies of the Software and all License Key(s)) and return, or if requested by VMware, destroy, any related VMware Confidential Information in Your possession or control and certify in writing to VMware that You have fully complied with these requirements. Sections 1 (Definitions), 2.6 (Open Source Software), 3 (Restrictions; Ownership), 5.1 (Records), 5.2 (Audit Rights), 7.2 (Disclaimer of Warranties), 9 (Limitation of Liability), 10 (Termination), 11 (Confidential Information) and 12 (General) will any survive termination of this EULA.
+--> 
+--> 11. CONFIDENTIAL INFORMATION.
+--> 
+--> 11.1 Definition. “Confidential Information” means information or materials provided by one party ( “Discloser”) to the other party ( “Recipient”) which are in tangible form and labeled “confidential” or the like, or, information which a reasonable person knew or should have known to be confidential. The following information shall be considered Confidential Information whether or not marked or identified as such: (a) License Keys; (b) information regarding VMware’s pricing, product roadmaps or strategic marketing plans; and (c) non-public materials relating to the Software.
+--> 
+--> 11.2 Protection. Recipient may use Confidential Information of Discloser; (a) to exercise its rights and perform its obligations under this EULA; or (b) in connection with the parties’ ongoing business relationship. Recipient will not use any Confidential Information of Discloser for any purpose not expressly permitted by the EULA, and will disclose the Confidential Information of Discloser only to the employees or contractors of Recipient who have a need to know such Confidential Information for purposes of the EULA and who are under a duty of confidentiality no less restrictive than Recipient’s duty hereunder. Recipient will protect Confidential Information from unauthorized use, access, or disclosure in the same manner as Recipient protects its own confidential or proprietary information of a similar nature but with no less than reasonable care.
+--> 
+--> 11.3 Exceptions. Recipient’s obligations under Section 11.2 with respect to any Confidential Information will terminate if Recipient can show by written records that such information: (a) was already known to Recipient at the time of disclosure by Discloser; (b) was disclosed to Recipient by a third party who had the right to make such disclosure without any confidentiality restrictions; (c) is, or through no fault of Recipient has become, generally available to the public; or (d) was independently developed by Recipient without access to, or use of, Discloser’s Information. In addition, Recipient will be allowed to disclose Confidential Information to the extent that such disclosure is required by law or by the order of a court of similar judicial or administrative body, provided that Recipient notifies Discloser of such required disclosure promptly and in writing and cooperates with Discloser, at Discloser’s request and expense, in any lawful action to contest or limit the scope of such required disclosure.
+--> 
+--> 11.4 Data Privacy. You agree that VMware may process technical and related information about Your use of the Software which may include internet protocol address, hardware identification, operating system, application software, peripheral hardware, and non-personally identifiable Software usage statistics to facilitate the provisioning of updates, support, invoicing or online services and may transfer such information to other companies in the VMware worldwide group of companies from time to time. To the extent that this information constitutes personal data, VMware shall be the controller of such personal data. To the extent that it acts as a controller, each party shall comply at all times with its obligations under the local legislation applicable in the Territory for the protection of individuals with regard to the processing of personal data. Collected data is subject to VMware’s Privacy Policy at http://www.vmware.com/help/privacy.html.
+--> 
+--> 12. GENERAL.
+--> 
+--> 12.1 Assignment. This EULA and any Orders, and any of Your rights or obligations thereunder, may not be assigned, subcontracted or transferred by You, in whole or in part, whether voluntary, by operation of contract, law or otherwise, without the prior written consent of VMware. Any attempted assignment or transfer in violation of the foregoing will be null and void. Subject to the foregoing, this EULA will be binding upon and will inure to the benefit of the parties and their respective successors and assigns.
+--> 
+--> 12.2 Notices. Any notice delivered by VMware to You under this EULA will be delivered via mail, email or fax.
+--> 
+--> 12.3 Waiver. The waiver of a breach of any provision of this EULA shall not constitute a waiver of any other provision or any subsequent breach.
+--> 
+--> 12.4 Severability. If any provision of this EULA is held to be illegal, invalid or unenforceable, the provision will be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remaining provisions of this EULA will remain in full force and effect.
+--> 
+--> 12.5 Compliance with Laws; Export Control; Government Regulations. Each party shall comply with all laws applicable to the actions contemplated by this EULA. You acknowledge that the Software is of United States origin, is provided subject to the U.S. Export Administration Regulations, may be subject to the export control laws of the applicable territory, and that diversion contrary to applicable export control laws is prohibited. You represent that (1) you are not, and are not acting on behalf of, (a) any person who is a citizen, national, or resident of, or who is controlled by the government of any country to which the United States has prohibited export transactions; or (b) any person or entity listed on the U.S. Treasury Department list of Specially Designated Nationals and Blocked Persons, or the U.S. Commerce Department Denied Persons List or Entity List; and (2) you will not permit the Software to be used for, any purposes prohibited by law, including, any prohibited development, design, manufacture or production of missiles or nuclear, chemical or biological weapons. The Software and accompanying documentation are deemed to be “commercial computer software” and “commercial computer software documentation”, respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212(b), as applicable. Any use, modification, reproduction, release, performing, displaying or disclosing of the Software and documentation by the U.S. Government shall be governed solely by the terms and conditions of this EULA.
+--> 
+--> 12.6 Construction. The headings of sections of this EULA are for convenience and are not to be used in interpreting this EULA. As used in this EULA, the word ‘including’ means “including but not limited to.”
+--> 
+--> 12.7 Governing Law. This EULA is governed by the laws of the State of California, United States of America, unless mandated by other law. The United Nations Convention for the International Sale of Goods shall not apply.
+--> 
+--> 12.8 Third Party Rights. Other than as expressly set out in this EULA, this EULA does not create any rights for any person who is not a party to it, and no person who is not a party to this EULA may enforce any of its terms or rely on any exclusion or limitation contained in it.
+--> 
+--> 12.9 Product Guide. In addition to the above sections, Your use of the Software is subject to the terms and conditions of the Product Guide, which is incorporated herein by reference.
+--> 
+--> 12.10 Order of Precedence. In the event of conflict or inconsistency among the Product Guide, this EULA and the Order, the following order of precedence shall apply: (a) the Product Guide, (b) this EULA and (c) the Order. With respect to any inconsistency between this EULA and an Order, the terms of this EULA shall supersede and control over any conflicting or additional terms and conditions of any Order, acknowledgement or confirmation or other document issued by You, unless the parties execute a written agreement expressly indicating: (i) that such Order shall modify this EULA; or (ii) that the terms of such Order shall supersede and control in the event of any inconsistency.
+--> 
+--> 12.11 Entire Agreement. This EULA, including accepted Orders and any amendments hereto, and the Product Guide contain the entire agreement of the parties with respect to the subject matter of this EULA and supersede all previous or contemporaneous communications, representations, proposals, commitments, understandings and agreements, whether written or oral, between the parties regarding the subject matter hereof. This EULA may be amended only in writing signed by authorized representatives of both parties.
+--> 
+--> 12.12 Contact Information. Please direct legal notices or other correspondence to VMware, Inc., 3401 Hillview Avenue, Palo Alto, California 94304, United States of America. If You have any questions concerning this EULA, please send an email to info@vmware.com.</License>
+-->     </EulaSection>
+-->     <ProductSection ovf:required="false">
+-->       <Info>VM ISV branding information</Info>
+-->       <Product>VMware Cloud Builder VM</Product>
+-->       <Vendor>VMware, Inc.</Vendor>
+-->       <!--
+-->             Version is the actual product version in the
+-->             form X.X.X.X where X is an unsigned 16-bit integer.
+--> 
+-->             FullVersion is a descriptive version string
+-->             including, for example, alpha or beta designations
+-->             and other release criteria.
+-->         -->
+-->       <Version>4.4.0.0</Version>
+-->       <FullVersion>4.4.0.0 Build 19312029</FullVersion>
+-->       <ProductUrl/>
+-->       <VendorUrl>http://www.vmware.com</VendorUrl>
+-->       <AppUrl>http://${vami.ip0.VMware_Cloud_Builder_VM}:5480/</AppUrl>
+-->       <Category>Application</Category>
+-->       <Property ovf:key="FIPS_ENABLE" ovf:type="boolean" ovf:userConfigurable="true" ovf:value="False">
+-->         <Label>Enable FIPS</Label>
+-->         <Description>Enable FIPS mode.</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.ADMIN_USERNAME" ovf:qualifiers="MinLen(1),MaxLen(65535)" ovf:type="string" ovf:userConfigurable="true" ovf:value="admin">
+-->         <Label>Admin Username</Label>
+-->         <Description>Enter a username for the default Admin account. Example: admin</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.ADMIN_PASSWORD" ovf:password="true" ovf:qualifiers="MinLen(8),MaxLen(65535)" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Admin Password</Label>
+-->         <Description>Enter a password for the default Admin account, password should be at least 8 characters in length, and can contain uppercase, lowercase and special characters but not contain common dictionary words. The appliance services will fail if a non-compliant password is provided. Example: P@ssword123!</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.ROOT_PASSWORD" ovf:password="true" ovf:qualifiers="MinLen(8),MaxLen(65535)" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Root Password</Label>
+-->         <Description>Enter a password for the default root account, password should be at least 8 characters in length, and can contain uppercase, lowercase and special characters but not contain common dictionary words. The appliance services will fail if a non-compliant password is provided. Example: P@ssword123!</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.hostname" ovf:qualifiers="MinLen(0),MaxLen(65535)" ovf:type="string" ovf:userConfigurable="true" ovf:value="">
+-->         <Label>Hostname</Label>
+-->         <Description>Enter a hostname for this virtual appliance.</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.ip0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Network 1 IP Address</Label>
+-->         <Description>Enter an IP Address for the interface of this virtual appliance.</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.netmask0" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Network 1 Subnet Mask</Label>
+-->         <Description>Enter a subnet mask for the interface of this virtual appliance. Example: 255.255.255.0</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.gateway" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>Default Gateway</Label>
+-->         <Description>Enter a default gateway for the interface of this virtual appliance.</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.DNS" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>DNS Servers</Label>
+-->         <Description>Enter the DNS servers for this virtual appliance (comma separated). WARNING: Do not specify more than two entries otherwise no configuration will be set.</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.domain" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>DNS Domain Name</Label>
+-->         <Description>Enter the domain name for this virtual appliance. Example: rainpole.local</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.searchpath" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>DNS Domain Search Paths</Label>
+-->         <Description>Enter the domain name search paths for this virtual appliance (comma separated). Example: rainpole.local, sfo01.rainpole.local</Description>
+-->       </Property>
+-->       <Property ovf:key="guestinfo.ntp" ovf:type="string" ovf:userConfigurable="true">
+-->         <Label>NTP Servers</Label>
+-->         <Description>Enter NTP time sources for this virtual appliance (comma separated). Example: ntp0.rainpole.local,ntp1.rainpole.local</Description>
+-->       </Property>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vami" ovf:instance="VMware_Cloud_Builder_VM" ovf:required="false">
+-->       <Info>VAMI Properties</Info>
+-->     </ProductSection>
+-->     <ProductSection ovf:class="vm" ovf:required="false">
+-->       <Info>VM specific properties</Info>
+-->     </ProductSection>
+-->     <AnnotationSection>
+-->       <Info/>
+-->       <Annotation>VMware Cloud Builder</Annotation>
+-->     </AnnotationSection>
+-->     <OperatingSystemSection ovf:id="100" ovf:version="1" vmw:osType="other3xLinux64Guest">
+-->       <Info>Guest Operating System</Info>
+-->       <Description>Photon OS</Description>
+-->     </OperatingSystemSection>
+-->     <VirtualHardwareSection ovf:required="false" ovf:transport="com.vmware.guestInfo">
+-->       <Info>Virtual Hardware Requirements</Info>
+-->       <System>
+-->         <vssd:ElementName>Virtual Hardware Family</vssd:ElementName>
+-->         <vssd:InstanceID>0</vssd:InstanceID>
+-->         <vssd:VirtualSystemType>vmx-08,vmx-09,vmx-10,vmx-11,vmx-12,vmx-13,vmx-14,vmx-15,vmx-16,vmx-17</vssd:VirtualSystemType>
+-->       </System>
+-->       <Item>
+-->         <rasd:AllocationUnits>hertz * 10^6</rasd:AllocationUnits>
+-->         <rasd:Description>Number of virtual CPUs</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4 virtual CPU</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">1</rasd:InstanceID>
+-->         <rasd:ResourceType>3</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>4</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AllocationUnits>byte * 2^20</rasd:AllocationUnits>
+-->         <rasd:Description>Memory Size</rasd:Description>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4096 MB of memory</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">2</rasd:InstanceID>
+-->         <rasd:ResourceType>4</rasd:ResourceType>
+-->         <rasd:VirtualQuantity>4096</rasd:VirtualQuantity>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AutomaticAllocation>true</rasd:AutomaticAllocation>
+-->         <rasd:Connection>Network 1</rasd:Connection>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Ethernet adapter on &quot;Network 1&quot;</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">3</rasd:InstanceID>
+-->         <rasd:ResourceSubType>VMXNET3</rasd:ResourceSubType>
+-->         <rasd:ResourceType>10</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">0</rasd:Address>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">SCSI Controller 0  - lsilogic</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">4</rasd:InstanceID>
+-->         <rasd:ResourceSubType>lsilogic</rasd:ResourceSubType>
+-->         <rasd:ResourceType>6</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Harddisk 1</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/system</rasd:HostResource>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">5</rasd:InstanceID>
+-->         <rasd:Parent>4</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>1</rasd:AddressOnParent>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">Harddisk 2</rasd:ElementName>
+-->         <rasd:HostResource>ovf:/disk/data</rasd:HostResource>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">6</rasd:InstanceID>
+-->         <rasd:Parent>4</rasd:Parent>
+-->         <rasd:ResourceType>17</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:Address>0</rasd:Address>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">IDE Controller 0</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">7</rasd:InstanceID>
+-->         <rasd:ResourceType>5</rasd:ResourceType>
+-->       </Item>
+-->       <Item>
+-->         <rasd:AddressOnParent>0</rasd:AddressOnParent>
+-->         <rasd:AutomaticAllocation>false</rasd:AutomaticAllocation>
+-->         <rasd:ElementName xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">CD/DVD Drive 1</rasd:ElementName>
+-->         <rasd:InstanceID xmlns:rasd="http://schemas.dmtf.org/wbem/wscim/1/cim-schema/2/CIM_ResourceAllocationSettingData">8</rasd:InstanceID>
+-->         <rasd:Parent>7</rasd:Parent>
+-->         <rasd:ResourceType>15</rasd:ResourceType>
+-->       </Item>
+-->       <vmw:Config ovf:required="false" vmw:key="tools.syncTimeWithHost" vmw:value="FALSE"/>
+-->     </VirtualHardwareSection>
+-->   </VirtualSystem>
+-->   <Strings xml:lang="en">
+-->     <Msg ovf:msgid="license_0">VMWARE END USER LICENSE AGREEMENT
+--> 
+--> PLEASE NOTE THAT THE TERMS OF THIS END USER LICENSE AGREEMENT SHALL GOVERN YOUR USE OF THE SOFTWARE, REGARDLESS OF ANY TERMS THAT MAY APPEAR DURING THE INSTALLATION OF THE SOFTWARE.
+--> 
+--> IMPORTANT-READ CAREFULLY: BY DOWNLOADING, INSTALLING, OR USING THE SOFTWARE, YOU (THE INDIVIDUAL OR LEGAL ENTITY) AGREE TO BE BOUND BY THE TERMS OF THIS END USER LICENSE AGREEMENT (“EULA”). IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, YOU MUST NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE, AND YOU MUST DELETE OR RETURN THE UNUSED SOFTWARE TO THE VENDOR FROM WHICH YOU ACQUIRED IT WITHIN THIRTY (30) DAYS AND REQUEST A REFUND OF THE LICENSE FEE, IF ANY, THAT YOU PAID FOR THE SOFTWARE.
+--> EVALUATION LICENSE. If You are licensing the Software for evaluation purposes, Your use of the Software is only permitted in a non-production environment and for the period limited by the License Key. Notwithstanding any other provision in this EULA, an Evaluation License of the Software is provided “AS-IS” without indemnification, support or warranty of any kind, expressed or implied.
+--> 
+--> 1. DEFINITIONS.
+--> 
+--> 1.1 “Affiliate” means, with respect to a party, an entity that is directly or indirectly controlled by or is under common control with such party, where “control” means an ownership, voting or similar interest representing fifty percent (50%) or more of the total interests then outstanding of the relevant entity (but only as long as such person or entity meets these requirements).
+--> 
+--> 1.2 “Documentation” means that documentation that is generally provided to You by VMware with the Software, as revised by VMware from time to time, and which may include end user manuals, operation instructions, installation guides, release notes, and on-line help files regarding the use of the Software.
+--> 
+--> 1.3 “Guest Operating Systems” means instances of third-party operating systems licensed by You, installed in a Virtual Machine and run using the Software.
+--> 
+--> 1.4 “Intellectual Property Rights” means all worldwide intellectual property rights, including without limitation, copyrights, trademarks, service marks, trade secrets, know how, inventions, patents, patent applications, moral rights and all other proprietary rights, whether registered or unregistered.
+--> 
+--> 1.5 “License” means a license granted under Section 2.1.
+--> 
+--> 1.6 “License Key” means a serial number that enables You to activate and use the Software.
+--> 
+--> 1.7 “License Term” means the duration of a License as specified in the Order.
+--> 
+--> 1.8 “License Type” means the type of License applicable to the Software, as more fully described in the Order.
+--> 
+--> 1.9 “Open Source Software” or “OSS” means software components that are licensed under a license approved by the Open Source Initiative (“OSI”) or similar open source or freeware license and are embedded in the delivered Software.
+--> 
+--> 1.10 “Order” means a purchase order, enterprise license agreement, or other ordering document issued by You to VMware or a VMware authorized reseller that references and incorporates this EULA and is accepted by VMware as set forth in Section 4.
+--> 
+--> 1.11 “Product Guide” means the current version of the VMware Product Guide at the time of Your Order, copies of which are found at www.vmware.com/download/eula.
+--> 
+--> 1.12 “Services Terms” means VMware’s then-current Support and Subscription Contract Terms and Conditions, copies of which are found at www.vmware.com/files/pdf/support/support_terms_conditions.pdf.
+--> 
+--> 1.13 “Software” means the VMware Tools and the VMware computer programs listed on VMware’s commercial price list to which You acquire a license under an Order, together with any software code relating to the foregoing that is provided to You pursuant to a support and subscription service contract and that is not subject to a separate license agreement.
+--> 
+--> 1.14 “Territory” means the country or countries in which You have been invoiced; provided, however, that if You have been invoiced within any of the European Economic Area member states, You may deploy the corresponding Software throughout the European Economic Area.
+--> 
+--> 1.15 “Third Party Agent” means a third party delivering information technology services to You pursuant to a written contract with You.
+--> 
+--> 1.16 “Virtual Machine” means a software container that can run its own operating system and execute applications like a physical machine.
+--> 
+--> 1.17 “VMware” means VMware, Inc., a Delaware corporation, if You are purchasing Licenses or services for use in the United States and VMware International Limited, a company organized and existing under the laws of Ireland, for all other purchases.
+--> 
+--> 1.18 “VMware Tools” means the suite of utilities and drivers, Licensed by VMware under the “VMware Tools” name, that can be installed in a Guest Operating System to enhance the performance and functionality of a Guest Operating System when running in a Virtual Machine.
+--> 
+--> 2. LICENSE GRANT.
+--> 
+--> 2.1 Scope of License. Subject to the terms and conditions of this EULA, VMware grants You, during the License Term, a non-exclusive, non-transferable License to use the Software, in executable code form only, within the Territory, for Your internal operations in accordance with (a) the Documentation; (b) the License Type for which You have paid the applicable fees; (c) other applicable limitations set forth in the Order. The License to the Software is limited to the quantities specified in each applicable Order.
+--> 
+--> 2.2 Third Party Use. Under the License granted to You in Section 2.1 above, You may permit Your Third Party Agents to access, use and/or operate the Software on Your behalf for the sole purpose of delivering services to You, provided that You will be fully responsible for Your Third Party Agents’ compliance with terms and conditions of this EULA and any breach of this EULA by a Third Party Agent shall be deemed to be a breach by You.
+--> 
+--> 2.3 Permitted Copies. You may make one copy of the Software for archival purposes only. The copy shall: (a) be kept within Your possession or control; (b) include all titles, trademarks, and copyright and restricted rights notices in the original; and (c) be subject to this EULA. You may not otherwise copy the Software without VMware’s prior written consent.
+--> 
+--> 2.4 Benchmarking. You may use the Software to conduct internal performance testing and benchmarking studies. You may only publish or otherwise distribute the results of such studies to third parties as follows: (a) if with respect to VMware’s Workstation or Fusion products, only if You provide a copy of Your study to benchmark@vmware.com prior to distribution; (b) if with respect to any other Software, only if VMware has reviewed and approved of the methodology, assumptions and other parameters of the study (please contact VMware at benchmark@vmware.com to request such review and approval) prior to such publication and distribution.
+--> 
+--> 2.5 VMware Tools. You may distribute the VMware Tools (whether or not as part of the Virtual Machine You create with the Software) to third parties solely when installed in a Guest Operating System to enhance its performance and functionality when running in a Virtual Machine, provided that You will be fully responsible for such third parties’ compliance with the terms and conditions of this EULA, and any breach of this EULA by any such third party shall be deemed to be a breach of this EULA by You.
+--> 
+--> 2.6 Open Source Software. Notwithstanding anything herein to the contrary, Open Source Software is licensed to You under such OSS’s own applicable license terms, which can be found in the open_source_licenses.txt file, the Documentation or as applicable, the corresponding source files for the Software available at www.vmware.com/download/open_source.html. These OSS license terms are consistent with the license granted in Section 2, and may contain additional rights benefiting You. The OSS license terms shall take precedence over this EULA to the extent that this EULA imposes greater restrictions on You than the applicable OSS license terms.
+--> 
+--> 3. RESTRICTIONS; OWNERSHIP.
+--> 
+--> 3.1 Restrictions. You acknowledge that the Software and the structure, organization and source code of the Software constitute valuable trade secrets of VMware. Accordingly, except as expressly permitted in Section 2 or as otherwise authorized by VMware in writing, You will not and will not permit any third party to: (a) sell, lease, license, distribute, sublicense or otherwise transfer in whole or in part the Software or Documentation to any third party; (b) decompile, disassemble, reverse engineer, or otherwise attempt to derive source code from the Software, in whole or in part; (c) copy the Software, except for archival purposes, as set out in Section 2.3; (d) create, develop, license, install, use, or deploy any software or services to circumvent, enable, modify or provide access, permissions or rights which violate the technical restrictions of the Software as described in this EULA; (e) translate, modify or create derivative works based upon the Software; (f) permit any use of or access to the Software by any third party; (g) remove any product identification, proprietary, copyright or other notices contained in the Software; or (h) operate the Software on behalf of or for the benefit of any third party, including the operation of any service that is accessed by a third party, except that, for the purposes of this Section 3.1 (h), You may use the Software to deliver hosted services to Your Affiliates.
+--> 
+--> 3.2 Decompilation. Notwithstanding the foregoing, decompiling the Software is permitted to the extent the laws of the Territory give You the express right to do so to obtain information necessary to render the Software interoperable with other software; provided, however, You must first request such information from VMware (at info@vmware.com), provide all reasonably requested information to allow VMware to assess Your claim, and VMware may, in its discretion, either provide such interoperability information to You, impose reasonable conditions, including a reasonable fee, on such use of the Software, or offer to provide alternatives to ensure that VMware’s proprietary rights in the Software are protected and to reduce any adverse impact on VMware’s proprietary rights.
+--> 
+--> 3.3 Ownership. The Software and Documentation, all copies and portions thereof, and all improvements, enhancements, modifications and derivative works thereof, and all Intellectual Property Rights therein, are and shall remain the sole and exclusive property of VMware and its licensors. Your rights to use the Software and Documentation shall be limited to those expressly granted in this EULA and any applicable Order. No other rights with respect to the Software or any related Intellectual Property Rights are implied. You are not authorized to use (and shall not permit any third party to use) the Software, Documentation or any portion thereof except as expressly authorized by this EULA or the applicable Order.
+--> 
+--> 3.4 Guest Operating Systems. Certain Software allows Guest Operating Systems and application programs to run on a computer system. You acknowledge that You are responsible for obtaining and complying with any licenses necessary to operate any such third-party software.
+--> 
+--> 4. ORDER.Your Order is subject to this EULA. No Orders are binding on VMware until accepted by VMware. Orders for Software are deemed to be accepted upon VMware’s delivery of the Software included in such Order. Orders issued to VMware do not have to be signed to be valid and enforceable.
+--> 
+--> 5. AUDIT RIGHTS.
+--> 
+--> 5.1 Records. You will, during the License Term for any Software licenses acquired under this EULA (and for a period of two (2) years from the expiration of the applicable License Term), maintain accurate records of your use of the Software sufficient to demonstrate Your compliance with the terms of this EULA and all Orders.
+--> 
+--> 5.2 Audit Rights. During the period in which the You are obligated to maintain such records, VMware, or its third party auditor, may, upon reasonable notice to You, audit such records to verify that You have (a) used the Software solely in the manner authorized herein; (b) paid all applicable license fees; and (c) otherwise complied with the terms of this EULA and all Orders. VMware may conduct no more than one (1) audit in any twelve (12) month period. Audits will be conducted during normal business hours and VMware will use commercially reasonable efforts to minimize the disruption of Your normal business activities. VMware, and any third-party auditor, shall not have physical access to Your computing devices in connection with any such audit, without Your prior written consent. You will reasonably cooperate with VMware and/or its third-party auditor and will promptly pay directly to VMware any underpayments revealed by such audit. You will promptly reimburse VMware for all reasonable costs and expenses incurred by VMware for such audit if: (i) such audit reveals an underpayment by You of more than five percent (5%) of the fees payable by You to VMware for the period audited, or (ii) such audit reveals You have materially failed to maintain accurate records of Your use of the Software.
+--> 
+--> 6. SUPPORT AND SUBSCRIPTION SERVICES. Except as expressly specified in the Product Guide, VMware does not provide any support or subscription services for the Software under this EULA. You have no rights to any updates, upgrades or extensions or enhancements to the Software developed by VMware unless you separately purchase VMware support or subscription services. These support or subscription services are subject to the Services Terms.
+--> 
+--> 7. WARRANTIES.
+--> 
+--> 7.1 Software Warranty. VMware warrants to You that the Software will, for a period of ninety (90) days following delivery (“Warranty Period”), substantially conform to the applicable Documentation, provided that the Software (a) has been properly installed and used at all times and in accordance with the applicable Documentation; and (b) has not been modified or added to by persons other than VMware or its authorized representative. VMware will, at its own expense and as its sole obligation and Your exclusive remedy for any breach of the foregoing warranty, either replace the applicable Software or correct any reproducible error in the Software reported to VMware by You in writing during the Warranty Period. If VMware determines that it is unable to correct the error or replace the Software, VMware will refund to You all License fees actually paid by You, in which case the License for the applicable Software and Your right to use such Software will terminate.
+--> 
+--> 7.2 Disclaimer of Warranties. THE EXPRESS WARRANTY IN SECTION 7.1 ABOVE IS IN LIEU OF AND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE AND ITS LICENSORS DISCLAIM, ALL OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE) REGARDING OR RELATING TO THE SOFTWARE, THE DOCUMENTATION, OR ANY MATERIALS FURNISHED OR PROVIDED TO YOU UNDER THIS EULA. VMWARE AND ITS LICENSORS DO NOT WARRANT THAT THE SOFTWARE WILL OPERATE UNINTERRUPTED OR THAT IT WILL BE FREE FROM DEFECTS OR THAT THE SOFTWARE WILL MEET (OR IS DESIGNED TO MEET) YOUR BUSINESS REQUIREMENTS.
+--> 
+--> 8. INTELLECTUAL PROPERTY INDEMNIFICATION.
+--> 
+--> 8.1 Defense and Indemnification. Subject to the remainder of this Section 8, VMware shall defend You against any third party claim that the Software infringes any patent, trademark or copyright of such third party, or misappropriates a trade secret (but only to the extent that such misappropriation is not a result of Your actions) under the laws of: (a) the United States and Canada; (b) the European Economic Area; (c) Australia; (d) New Zealand; (e) Japan; or (f) the People’s Republic of China, to the extent that such countries are part of the Territory for the License ( “Infringement Claim”) and indemnify You from the resulting costs and damages finally awarded against You to such third party by a court of competent jurisdiction or agreed to in settlement; provided that You: (i) promptly provide VMware with notice of such Infringement Claim; (ii) allow VMware sole control over the defense thereof and related settlement negotiation; and (iii) reasonably cooperate in response to VMware requests for assistance. You may not settle or compromise any Infringement Claim without the prior written consent of VMware.
+--> 
+--> 8.2 Remedies. Should the Software become, or in VMware’s opinion be likely to become, the subject of an Infringement Claim, VMware will, at VMware’s option and expense either: (a) procure the rights necessary for You to make continued use of the affected Software in accordance with this EULA; (b) replace or modify the affected Software to make it non-infringing; or (c) terminate the License to the affected Software and discontinue the related support services, and, upon Your certified deletion of the affected Software, refund: (i) the fees paid by You for the License to the affected Software, less straight-line depreciation over a three (3) year useful life beginning on the date such Software was delivered; and (ii) any pre-paid service fee attributable to related support services to be delivered after the date such service is stopped. Nothing in this Section 8.2 shall limit VMware’s obligation under Section 8.1 to defend and indemnify You, provided that You replace the allegedly infringing Software upon VMware’s making alternate Software available to You and/or You discontinue using the allegedly infringing Software upon receiving VMware’s notice terminating the affected License.
+--> 
+--> 8.3 Exclusions. Notwithstanding the foregoing, VMware will have no obligation under this Section 8 or otherwise with respect to any claim based on: (a) a combination of Software with non-VMware products (other than non-VMware products that are listed on the Order and used in an unmodified form); (b) use for a purpose or in a manner for which the Software was not designed; (c) use of any older version of the Software when use of a newer VMware revision would have avoided the infringement; (d) any modification to the Software made without VMware’s express written approval; (e) any claim that relates to open source software or freeware technology or any derivatives or other adaptations thereof that is not embedded by VMware into Software listed on VMware’s commercial price list; (f) any claim that relates to Linux or Android open source software, even when it has been embedded into or distributed with the Software or (g) any Software provided on a no charge, beta or evaluation basis. THIS SECTION 8 STATES YOUR SOLE AND EXCLUSIVE REMEDY AND VMWARE’S ENTIRE LIABILITY FOR ANY INFRINGEMENT CLAIMS OR ACTIONS.
+--> 
+--> 9. LIMITATION OF LIABILITY.
+--> 
+--> 9.1 Limitation of Liability. TO THE MAXIMUM EXTENT MANDATED BY LAW, IN NO EVENT WILL VMWARE AND ITS LICENSORS BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, LOSS OF REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU. VMWARE’S AND ITS LICENSORS’ LIABILITY UNDER THIS EULA WILL NOT, IN ANY EVENT, REGARDLESS OF WHETHER THE CLAIM IS BASED IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE, EXCEED THE LICENSE FEES YOU PAID FOR THE SOFTWARE, IF ANY. THE FOREGOING LIMITATIONS SHALL APPLY REGARDLESS OF WHETHER VMWARE OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+--> 
+--> 9.2 Further Limitations. VMware’s licensors shall have no liability of any kind under this EULA and VMware’s liability with respect to any third party software embedded in the Software shall be subject to Section 9.1. You may not bring a claim under this EULA more than eighteen (18) months after the cause of action arises.
+--> 
+--> 10. TERMINATION.
+--> 
+--> 10.1 License Term. This EULA will terminate in its entirety upon the termination of the License Term, unless terminated earlier under this Section 10.
+--> 
+--> 10.2 Termination for Breach. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if: (a) You breach any provision in Section 3 and do not cure the breach within ten (10) days after receiving written notice thereof from VMware; (b) You fail to pay any portion of the fees under an applicable Order within ten (10) days after receiving written notice from VMware that payment is past due; (c) You breach any other provision of this EULA and don’t not cure the breach within thirty (30) days after receiving written notice thereof from VMware; or (d) You commit a material breach that is not capable of being cured.
+--> 
+--> 10.3 Termination for Insolvency. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if You: (a) terminate or suspend your business; (b) become insolvent, admit in writing Your inability to pay Your debts as they mature, make an assignment for the benefit of creditors; or become subject to control of a trustee, receiver or similar authority; or (c) become subject to any bankruptcy or insolvency proceeding.
+--> 
+--> 10.4 Effect of Termination. If VMware terminates this EULA under this Section 10: (a) all Licensed rights to all Software granted to You under this EULA will immediately cease to exist; and (b) You must promptly discontinue all use of all Software, and (destroy all copies of the Software and all License Key(s)) and return, or if requested by VMware, destroy, any related VMware Confidential Information in Your possession or control and certify in writing to VMware that You have fully complied with these requirements. Sections 1 (Definitions), 2.6 (Open Source Software), 3 (Restrictions; Ownership), 5.1 (Records), 5.2 (Audit Rights), 7.2 (Disclaimer of Warranties), 9 (Limitation of Liability), 10 (Termination), 11 (Confidential Information) and 12 (General) will any survive termination of this EULA.
+--> 
+--> 11. CONFIDENTIAL INFORMATION.
+--> 
+--> 11.1 Definition. “Confidential Information” means information or materials provided by one party ( “Discloser”) to the other party ( “Recipient”) which are in tangible form and labeled “confidential” or the like, or, information which a reasonable person knew or should have known to be confidential. The following information shall be considered Confidential Information whether or not marked or identified as such: (a) License Keys; (b) information regarding VMware’s pricing, product roadmaps or strategic marketing plans; and (c) non-public materials relating to the Software.
+--> 
+--> 11.2 Protection. Recipient may use Confidential Information of Discloser; (a) to exercise its rights and perform its obligations under this EULA; or (b) in connection with the parties’ ongoing business relationship. Recipient will not use any Confidential Information of Discloser for any purpose not expressly permitted by the EULA, and will disclose the Confidential Information of Discloser only to the employees or contractors of Recipient who have a need to know such Confidential Information for purposes of the EULA and who are under a duty of confidentiality no less restrictive than Recipient’s duty hereunder. Recipient will protect Confidential Information from unauthorized use, access, or disclosure in the same manner as Recipient protects its own confidential or proprietary information of a similar nature but with no less than reasonable care.
+--> 
+--> 11.3 Exceptions. Recipient’s obligations under Section 11.2 with respect to any Confidential Information will terminate if Recipient can show by written records that such information: (a) was already known to Recipient at the time of disclosure by Discloser; (b) was disclosed to Recipient by a third party who had the right to make such disclosure without any confidentiality restrictions; (c) is, or through no fault of Recipient has become, generally available to the public; or (d) was independently developed by Recipient without access to, or use of, Discloser’s Information. In addition, Recipient will be allowed to disclose Confidential Information to the extent that such disclosure is required by law or by the order of a court of similar judicial or administrative body, provided that Recipient notifies Discloser of such required disclosure promptly and in writing and cooperates with Discloser, at Discloser’s request and expense, in any lawful action to contest or limit the scope of such required disclosure.
+--> 
+--> 11.4 Data Privacy. You agree that VMware may process technical and related information about Your use of the Software which may include internet protocol address, hardware identification, operating system, application software, peripheral hardware, and non-personally identifiable Software usage statistics to facilitate the provisioning of updates, support, invoicing or online services and may transfer such information to other companies in the VMware worldwide group of companies from time to time. To the extent that this information constitutes personal data, VMware shall be the controller of such personal data. To the extent that it acts as a controller, each party shall comply at all times with its obligations under the local legislation applicable in the Territory for the protection of individuals with regard to the processing of personal data. Collected data is subject to VMware’s Privacy Policy at http://www.vmware.com/help/privacy.html.
+--> 
+--> 12. GENERAL.
+--> 
+--> 12.1 Assignment. This EULA and any Orders, and any of Your rights or obligations thereunder, may not be assigned, subcontracted or transferred by You, in whole or in part, whether voluntary, by operation of contract, law or otherwise, without the prior written consent of VMware. Any attempted assignment or transfer in violation of the foregoing will be null and void. Subject to the foregoing, this EULA will be binding upon and will inure to the benefit of the parties and their respective successors and assigns.
+--> 
+--> 12.2 Notices. Any notice delivered by VMware to You under this EULA will be delivered via mail, email or fax.
+--> 
+--> 12.3 Waiver. The waiver of a breach of any provision of this EULA shall not constitute a waiver of any other provision or any subsequent breach.
+--> 
+--> 12.4 Severability. If any provision of this EULA is held to be illegal, invalid or unenforceable, the provision will be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remaining provisions of this EULA will remain in full force and effect.
+--> 
+--> 12.5 Compliance with Laws; Export Control; Government Regulations. Each party shall comply with all laws applicable to the actions contemplated by this EULA. You acknowledge that the Software is of United States origin, is provided subject to the U.S. Export Administration Regulations, may be subject to the export control laws of the applicable territory, and that diversion contrary to applicable export control laws is prohibited. You represent that (1) you are not, and are not acting on behalf of, (a) any person who is a citizen, national, or resident of, or who is controlled by the government of any country to which the United States has prohibited export transactions; or (b) any person or entity listed on the U.S. Treasury Department list of Specially Designated Nationals and Blocked Persons, or the U.S. Commerce Department Denied Persons List or Entity List; and (2) you will not permit the Software to be used for, any purposes prohibited by law, including, any prohibited development, design, manufacture or production of missiles or nuclear, chemical or biological weapons. The Software and accompanying documentation are deemed to be “commercial computer software” and “commercial computer software documentation”, respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212(b), as applicable. Any use, modification, reproduction, release, performing, displaying or disclosing of the Software and documentation by the U.S. Government shall be governed solely by the terms and conditions of this EULA.
+--> 
+--> 12.6 Construction. The headings of sections of this EULA are for convenience and are not to be used in interpreting this EULA. As used in this EULA, the word ‘including’ means “including but not limited to.”
+--> 
+--> 12.7 Governing Law. This EULA is governed by the laws of the State of California, United States of America, unless mandated by other law. The United Nations Convention for the International Sale of Goods shall not apply.
+--> 
+--> 12.8 Third Party Rights. Other than as expressly set out in this EULA, this EULA does not create any rights for any person who is not a party to it, and no person who is not a party to this EULA may enforce any of its terms or rely on any exclusion or limitation contained in it.
+--> 
+--> 12.9 Product Guide. In addition to the above sections, Your use of the Software is subject to the terms and conditions of the Product Guide, which is incorporated herein by reference.
+--> 
+--> 12.10 Order of Precedence. In the event of conflict or inconsistency among the Product Guide, this EULA and the Order, the following order of precedence shall apply: (a) the Product Guide, (b) this EULA and (c) the Order. With respect to any inconsistency between this EULA and an Order, the terms of this EULA shall supersede and control over any conflicting or additional terms and conditions of any Order, acknowledgement or confirmation or other document issued by You, unless the parties execute a written agreement expressly indicating: (i) that such Order shall modify this EULA; or (ii) that the terms of such Order shall supersede and control in the event of any inconsistency.
+--> 
+--> 12.11 Entire Agreement. This EULA, including accepted Orders and any amendments hereto, and the Product Guide contain the entire agreement of the parties with respect to the subject matter of this EULA and supersede all previous or contemporaneous communications, representations, proposals, commitments, understandings and agreements, whether written or oral, between the parties regarding the subject matter hereof. This EULA may be amended only in writing signed by authorized representatives of both parties.
+--> 
+--> 12.12 Contact Information. Please direct legal notices or other correspondence to VMware, Inc., 3401 Hillview Avenue, Palo Alto, California 94304, United States of America. If You have any questions concerning this EULA, please send an email to info@vmware.com.</Msg>
+-->   </Strings>
+--> </ovf:Envelope>
+--> 
+2022-08-07T22:13:09.196Z verbose OVFTool[05196] [Originator@6876 sub=Default] Vi4Target put descriptor
+2022-08-07T22:13:09.196Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupDatastore on ViTarget
+2022-08-07T22:13:09.245Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupHostSystem on ViTarget
+2022-08-07T22:13:09.250Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupVmFolder on ViTarget
+2022-08-07T22:13:09.251Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupNetwork on ViTarget
+2022-08-07T22:13:09.268Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the networks from the ConfigTarget...
+2022-08-07T22:13:09.272Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[VLC-C-PG] = [class Vim::NetworkStub:0x00000268819941b0]
+2022-08-07T22:13:09.274Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[VLC-D-PG] = [class Vim::NetworkStub:0x0000026881a0d720]
+2022-08-07T22:13:09.275Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[VLC-B-PG] = [class Vim::NetworkStub:0x0000026881c7b500]
+2022-08-07T22:13:09.276Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[VM Network] = [class Vim::NetworkStub:0x00000268820ade60]
+2022-08-07T22:13:09.277Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] networks[VLC-A-PG] = [class Vim::NetworkStub:0x00000268820ad7a0]
+2022-08-07T22:13:09.277Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the opaque networks from the ConfigTarget...
+2022-08-07T22:13:09.277Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetwork] Getting the DVPs from the ConfigTarget...
+2022-08-07T22:13:09.278Z verbose OVFTool[05196] [Originator@6876 sub=Default] SetupDiskType on ViTarget
+2022-08-07T22:13:09.279Z verbose OVFTool[05196] [Originator@6876 sub=Default] datastore [(vim.Datastore.Summary) {
+-->    datastore = 'vim.Datastore:62719654-6d50bec4-b7d3-bc97e124d030', 
+-->    name = "3.5T-NVME-1", 
+-->    url = "/vmfs/volumes/62719654-6d50bec4-b7d3-bc97e124d030", 
+-->    capacity = 3840506068992, 
+-->    freeSpace = 3066986233856, 
+-->    uncommitted = 6107034054, 
+-->    accessible = true, 
+-->    multipleHostAccess = <unset>, 
+-->    type = "VMFS", 
+-->    maintenanceMode = <unset>
+--> }] summary: 
+2022-08-07T22:13:09.281Z verbose OVFTool[05196] [Originator@6876 sub=Default] datastore: 3.5T-NVME-1 is accessible
+2022-08-07T22:13:09.282Z verbose OVFTool[05196] [Originator@6876 sub=Default] datastore mount info: (vim.host.MountInfo) {
+-->    path = "/vmfs/volumes/62719654-6d50bec4-b7d3-bc97e124d030", 
+-->    accessMode = "readWrite", 
+-->    mounted = true, 
+-->    accessible = true, 
+-->    inaccessibleReason = <unset>
+--> }
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] ovfNetworkNames='Network 1'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='VLC-A-PG'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='VLC-B-PG'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='VLC-C-PG'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='VLC-D-PG'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] targetNetworkNames='VM Network'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] [ViTarget::SetupNetworkMapping] Validate network mapping: src = 'Network 1', dst = 'VLC-A-PG'
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 4.1...
+2022-08-07T22:13:09.284Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2022-08-07T22:13:09.287Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:13:09.287Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:13:09.287Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 5.0...
+2022-08-07T22:13:09.287Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2022-08-07T22:13:09.388Z verbose OVFTool[05196] [Originator@6876 sub=Default] CreateImportSpecResult:
+--> (vim.OvfManager.CreateImportSpecResult) {
+-->    importSpec = (vim.vm.VmImportSpec) {
+-->       entityConfig = (vim.vApp.EntityConfigInfo) {
+-->          key = <unset>, 
+-->          tag = "Holo-A-CB-01a", 
+-->          startOrder = <unset>, 
+-->          startDelay = <unset>, 
+-->          waitingForGuest = <unset>, 
+-->          startAction = <unset>, 
+-->          stopDelay = <unset>, 
+-->          stopAction = <unset>, 
+-->          destroyWithParent = <unset>
+-->       }, 
+-->       instantiationOst = (vim.OvfConsumer.OstNode) null, 
+-->       configSpec = (vim.vm.ConfigSpec) {
+-->          changeVersion = <unset>, 
+-->          name = "Holo-A-CB-01a", 
+-->          version = "vmx-17", 
+-->          createDate = <unset>, 
+-->          uuid = <unset>, 
+-->          instanceUuid = <unset>, 
+-->          npivNodeWorldWideName = <unset>, 
+-->          npivPortWorldWideName = <unset>, 
+-->          npivWorldWideNameType = <unset>, 
+-->          npivDesiredNodeWwns = <unset>, 
+-->          npivDesiredPortWwns = <unset>, 
+-->          npivTemporaryDisabled = <unset>, 
+-->          npivOnNonRdmDisks = <unset>, 
+-->          npivWorldWideNameOp = <unset>, 
+-->          locationId = <unset>, 
+-->          guestId = "other3xLinux64Guest", 
+-->          alternateGuestName = <unset>, 
+-->          annotation = "VMware Cloud Builder", 
+-->          files = (vim.vm.FileInfo) {
+-->             vmPathName = "[3.5T-NVME-1]", 
+-->             snapshotDirectory = <unset>, 
+-->             suspendDirectory = <unset>, 
+-->             logDirectory = <unset>, 
+-->             ftMetadataDirectory = <unset>
+-->          }, 
+-->          tools = (vim.vm.ToolsConfigInfo) {
+-->             toolsVersion = <unset>, 
+-->             toolsInstallType = <unset>, 
+-->             afterPowerOn = true, 
+-->             afterResume = true, 
+-->             beforeGuestStandby = true, 
+-->             beforeGuestShutdown = true, 
+-->             beforeGuestReboot = true, 
+-->             toolsUpgradePolicy = <unset>, 
+-->             pendingCustomization = <unset>, 
+-->             customizationKeyId = (vim.encryption.CryptoKeyId) null, 
+-->             syncTimeWithHostAllowed = <unset>, 
+-->             syncTimeWithHost = false, 
+-->             lastInstallInfo = (vim.vm.ToolsConfigInfo.ToolsLastInstallInfo) null, 
+-->             upgradeRebootPredict = <unset>
+-->          }, 
+-->          flags = (vim.vm.FlagInfo) null, 
+-->          consolePreferences = (vim.vm.ConsolePreferences) null, 
+-->          powerOpInfo = (vim.vm.DefaultPowerOpInfo) null, 
+-->          numCPUs = 4, 
+-->          vcpuConfig = <unset>, 
+-->          numCoresPerSocket = 1, 
+-->          memoryMB = 4096, 
+-->          memoryHotAddEnabled = <unset>, 
+-->          cpuHotAddEnabled = <unset>, 
+-->          cpuHotRemoveEnabled = <unset>, 
+-->          virtualICH7MPresent = <unset>, 
+-->          virtualSMCPresent = <unset>, 
+-->          deviceChange = (vim.vm.device.VirtualDeviceSpec) [
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualCdrom) {
+-->                   key = -100, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualCdrom.AtapiBackingInfo) {
+-->                      deviceName = "CD/DVD drive 0", 
+-->                      useAutoDetect = <unset>, 
+-->                      description = <unset>
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = false, 
+-->                      allowGuestControl = true, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = 200, 
+-->                   unitNumber = 0, 
+-->                   numaNode = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualIDEController) {
+-->                   key = 200, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDevice.BackingInfo) null, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   numaNode = <unset>, 
+-->                   busNumber = 0, 
+-->                   device = (int) [
+-->                      -100
+-->                   ]
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = "create", 
+-->                device = (vim.vm.device.VirtualDisk) {
+-->                   key = -102, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) {
+-->                      fileName = "", 
+-->                      datastore = <unset>, 
+-->                      backingObjectId = <unset>, 
+-->                      diskMode = "persistent", 
+-->                      split = false, 
+-->                      writeThrough = <unset>, 
+-->                      thinProvisioned = true, 
+-->                      eagerlyScrub = false, 
+-->                      uuid = <unset>, 
+-->                      contentId = <unset>, 
+-->                      changeId = <unset>, 
+-->                      parent = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) null, 
+-->                      deltaDiskFormat = <unset>, 
+-->                      digestEnabled = <unset>, 
+-->                      deltaGrainSize = <unset>, 
+-->                      deltaDiskFormatVariant = <unset>, 
+-->                      sharing = <unset>, 
+-->                      keyId = (vim.encryption.CryptoKeyId) null, 
+-->                      cryptoIntegrityProtectionType = <unset>, 
+-->                      cryptoIntegrityWatermark = <unset>
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = false, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = -101, 
+-->                   unitNumber = 0, 
+-->                   numaNode = <unset>, 
+-->                   capacityInKB = 104857600, 
+-->                   capacityInBytes = <unset>, 
+-->                   shares = (vim.SharesInfo) null, 
+-->                   storageIOAllocation = (vim.StorageResourceManager.IOAllocationInfo) null, 
+-->                   diskObjectId = <unset>, 
+-->                   vFlashCacheConfigInfo = (vim.vm.device.VirtualDisk.VFlashCacheConfigInfo) null, 
+-->                   iofilter = <unset>, 
+-->                   vDiskId = (vim.vslm.ID) null, 
+-->                   virtualDiskFormat = <unset>, 
+-->                   nativeUnmanagedLinkedClone = <unset>, 
+-->                   independentFilters = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = "create", 
+-->                device = (vim.vm.device.VirtualDisk) {
+-->                   key = -103, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) {
+-->                      fileName = "", 
+-->                      datastore = <unset>, 
+-->                      backingObjectId = <unset>, 
+-->                      diskMode = "persistent", 
+-->                      split = false, 
+-->                      writeThrough = <unset>, 
+-->                      thinProvisioned = true, 
+-->                      eagerlyScrub = false, 
+-->                      uuid = <unset>, 
+-->                      contentId = <unset>, 
+-->                      changeId = <unset>, 
+-->                      parent = (vim.vm.device.VirtualDisk.FlatVer2BackingInfo) null, 
+-->                      deltaDiskFormat = <unset>, 
+-->                      digestEnabled = <unset>, 
+-->                      deltaGrainSize = <unset>, 
+-->                      deltaDiskFormatVariant = <unset>, 
+-->                      sharing = <unset>, 
+-->                      keyId = (vim.encryption.CryptoKeyId) null, 
+-->                      cryptoIntegrityProtectionType = <unset>, 
+-->                      cryptoIntegrityWatermark = <unset>
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = -101, 
+-->                   unitNumber = 1, 
+-->                   numaNode = <unset>, 
+-->                   capacityInKB = 52428800, 
+-->                   capacityInBytes = <unset>, 
+-->                   shares = (vim.SharesInfo) null, 
+-->                   storageIOAllocation = (vim.StorageResourceManager.IOAllocationInfo) null, 
+-->                   diskObjectId = <unset>, 
+-->                   vFlashCacheConfigInfo = (vim.vm.device.VirtualDisk.VFlashCacheConfigInfo) null, 
+-->                   iofilter = <unset>, 
+-->                   vDiskId = (vim.vslm.ID) null, 
+-->                   virtualDiskFormat = <unset>, 
+-->                   nativeUnmanagedLinkedClone = <unset>, 
+-->                   independentFilters = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualLsiLogicController) {
+-->                   key = -101, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualDevice.BackingInfo) null, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = false, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   numaNode = <unset>, 
+-->                   busNumber = 0, 
+-->                   device = (int) [
+-->                      -102, 
+-->                      -103
+-->                   ], 
+-->                   hotAddRemove = <unset>, 
+-->                   sharedBus = "noSharing", 
+-->                   scsiCtlrUnitNumber = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }, 
+-->             (vim.vm.device.VirtualDeviceSpec) {
+-->                operation = "add", 
+-->                fileOperation = <unset>, 
+-->                device = (vim.vm.device.VirtualVmxnet3) {
+-->                   dynamicProperty = <unset>, 
+-->                   key = -104, 
+-->                   deviceInfo = (vim.Description) null, 
+-->                   backing = (vim.vm.device.VirtualEthernetCard.NetworkBackingInfo) {
+-->                      deviceName = "VLC-A-PG", 
+-->                      useAutoDetect = <unset>, 
+-->                      network = <unset>, 
+-->                      inPassthroughMode = <unset>
+-->                   }, 
+-->                   connectable = (vim.vm.device.VirtualDevice.ConnectInfo) {
+-->                      migrateConnect = <unset>, 
+-->                      startConnected = true, 
+-->                      allowGuestControl = true, 
+-->                      connected = true, 
+-->                      status = <unset>
+-->                   }, 
+-->                   slotInfo = (vim.vm.device.VirtualDevice.BusSlotInfo) null, 
+-->                   controllerKey = <unset>, 
+-->                   unitNumber = <unset>, 
+-->                   numaNode = <unset>, 
+-->                   addressType = "generated", 
+-->                   macAddress = <unset>, 
+-->                   wakeOnLanEnabled = true, 
+-->                   resourceAllocation = (vim.vm.device.VirtualEthernetCard.ResourceAllocation) null, 
+-->                   externalId = <unset>, 
+-->                   uptCompatibilityEnabled = <unset>, 
+-->                   uptv2Enabled = <unset>
+-->                }, 
+-->                profile = <unset>, 
+-->                backing = (vim.vm.device.VirtualDeviceSpec.BackingSpec) null, 
+-->                filterSpec = <unset>
+-->             }
+-->          ], 
+-->          cpuAllocation = (vim.ResourceAllocationInfo) null, 
+-->          memoryAllocation = (vim.ResourceAllocationInfo) null, 
+-->          latencySensitivity = (vim.LatencySensitivity) null, 
+-->          cpuAffinity = (vim.vm.AffinityInfo) null, 
+-->          memoryAffinity = (vim.vm.AffinityInfo) null, 
+-->          networkShaper = (vim.vm.NetworkShaperInfo) null, 
+-->          cpuFeatureMask = <unset>, 
+-->          extraConfig = <unset>, 
+-->          swapPlacement = <unset>, 
+-->          bootOptions = (vim.vm.BootOptions) null, 
+-->          vAppConfig = (vim.vApp.VmConfigSpec) {
+-->             product = (vim.vApp.ProductSpec) [
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      name = "VMware Cloud Builder VM", 
+-->                      vendor = "VMware, Inc.", 
+-->                      version = "4.4.0.0", 
+-->                      fullVersion = "4.4.0.0 Build 19312029", 
+-->                      vendorUrl = "http://www.vmware.com", 
+-->                      productUrl = "", 
+-->                      appUrl = "http://${vami.ip0.VMware_Cloud_Builder_VM}:5480/"
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 1, 
+-->                      classId = "vami", 
+-->                      instanceId = "VMware_Cloud_Builder_VM", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }, 
+-->                (vim.vApp.ProductSpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.ProductInfo) {
+-->                      key = 2, 
+-->                      classId = "vm", 
+-->                      instanceId = "", 
+-->                      name = "", 
+-->                      vendor = "", 
+-->                      version = "", 
+-->                      fullVersion = "", 
+-->                      vendorUrl = "", 
+-->                      productUrl = "", 
+-->                      appUrl = ""
+-->                   }
+-->                }
+-->             ], 
+-->             property = (vim.vApp.PropertySpec) [
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 0, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "FIPS_ENABLE", 
+-->                      category = "Application", 
+-->                      label = "Enable FIPS", 
+-->                      type = "boolean", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enable FIPS mode."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 1, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.ADMIN_USERNAME", 
+-->                      category = "Application", 
+-->                      label = "Admin Username", 
+-->                      type = "string(1..65535)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a username for the default Admin account. Example: admin"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 2, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.ADMIN_PASSWORD", 
+-->                      category = "Application", 
+-->                      label = "Admin Password", 
+-->                      type = "password(8..65535)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a password for the default Admin account, password should be at least 8 characters in length, and can contain uppercase, lowercase and special characters but not contain common dictionary words. The appliance services will fail if a non-compliant password is provided. Example: P@ssword123!"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 3, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.ROOT_PASSWORD", 
+-->                      category = "Application", 
+-->                      label = "Root Password", 
+-->                      type = "password(8..65535)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a password for the default root account, password should be at least 8 characters in length, and can contain uppercase, lowercase and special characters but not contain common dictionary words. The appliance services will fail if a non-compliant password is provided. Example: P@ssword123!"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 4, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.hostname", 
+-->                      category = "Application", 
+-->                      label = "Hostname", 
+-->                      type = "string(0..65535)", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a hostname for this virtual appliance."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 5, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.ip0", 
+-->                      category = "Application", 
+-->                      label = "Network 1 IP Address", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter an IP Address for the interface of this virtual appliance."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 6, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.netmask0", 
+-->                      category = "Application", 
+-->                      label = "Network 1 Subnet Mask", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a subnet mask for the interface of this virtual appliance. Example: 255.255.255.0"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 7, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.gateway", 
+-->                      category = "Application", 
+-->                      label = "Default Gateway", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter a default gateway for the interface of this virtual appliance."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 8, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.DNS", 
+-->                      category = "Application", 
+-->                      label = "DNS Servers", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter the DNS servers for this virtual appliance (comma separated). WARNING: Do not specify more than two entries otherwise no configuration will be set."
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 9, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.domain", 
+-->                      category = "Application", 
+-->                      label = "DNS Domain Name", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter the domain name for this virtual appliance. Example: rainpole.local"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 10, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.searchpath", 
+-->                      category = "Application", 
+-->                      label = "DNS Domain Search Paths", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter the domain name search paths for this virtual appliance (comma separated). Example: rainpole.local, sfo01.rainpole.local"
+-->                   }
+-->                }, 
+-->                (vim.vApp.PropertySpec) {
+-->                   operation = "add", 
+-->                   removeKey = <unset>, 
+-->                   info = (vim.vApp.PropertyInfo) {
+-->                      key = 11, 
+-->                      classId = "", 
+-->                      instanceId = "", 
+-->                      id = "guestinfo.ntp", 
+-->                      category = "Application", 
+-->                      label = "NTP Servers", 
+-->                      type = "string", 
+-->                      typeReference = <unset>, 
+-->                      userConfigurable = true, 
+-->                      defaultValue = (not shown), 
+-->                      value = (not shown), 
+-->                      description = "Enter NTP time sources for this virtual appliance (comma separated). Example: ntp0.rainpole.local,ntp1.rainpole.local"
+-->                   }
+-->                }
+-->             ], 
+-->             ipAssignment = (vim.vApp.IPAssignmentInfo) {
+-->                supportedAllocationScheme = <unset>, 
+-->                ipAllocationPolicy = "", 
+-->                supportedIpProtocol = <unset>, 
+-->                ipProtocol = ""
+-->             }, 
+-->             eula = (string) [
+-->                "VMWARE END USER LICENSE AGREEMENT
+--> 
+--> PLEASE NOTE THAT THE TERMS OF THIS END USER LICENSE AGREEMENT SHALL GOVERN YOUR USE OF THE SOFTWARE, REGARDLESS OF ANY TERMS THAT MAY APPEAR DURING THE INSTALLATION OF THE SOFTWARE.
+--> 
+--> IMPORTANT-READ CAREFULLY: BY DOWNLOADING, INSTALLING, OR USING THE SOFTWARE, YOU (THE INDIVIDUAL OR LEGAL ENTITY) AGREE TO BE BOUND BY THE TERMS OF THIS END USER LICENSE AGREEMENT (“EULA”). IF YOU DO NOT AGREE TO THE TERMS OF THIS EULA, YOU MUST NOT DOWNLOAD, INSTALL, OR USE THE SOFTWARE, AND YOU MUST DELETE OR RETURN THE UNUSED SOFTWARE TO THE VENDOR FROM WHICH YOU ACQUIRED IT WITHIN THIRTY (30) DAYS AND REQUEST A REFUND OF THE LICENSE FEE, IF ANY, THAT YOU PAID FOR THE SOFTWARE.
+--> EVALUATION LICENSE. If You are licensing the Software for evaluation purposes, Your use of the Software is only permitted in a non-production environment and for the period limited by the License Key. Notwithstanding any other provision in this EULA, an Evaluation License of the Software is provided “AS-IS” without indemnification, support or warranty of any kind, expressed or implied.
+--> 
+--> 1. DEFINITIONS.
+--> 
+--> 1.1 “Affiliate” means, with respect to a party, an entity that is directly or indirectly controlled by or is under common control with such party, where “control” means an ownership, voting or similar interest representing fifty percent (50%) or more of the total interests then outstanding of the relevant entity (but only as long as such person or entity meets these requirements).
+--> 
+--> 1.2 “Documentation” means that documentation that is generally provided to You by VMware with the Software, as revised by VMware from time to time, and which may include end user manuals, operation instructions, installation guides, release notes, and on-line help files regarding the use of the Software.
+--> 
+--> 1.3 “Guest Operating Systems” means instances of third-party operating systems licensed by You, installed in a Virtual Machine and run using the Software.
+--> 
+--> 1.4 “Intellectual Property Rights” means all worldwide intellectual property rights, including without limitation, copyrights, trademarks, service marks, trade secrets, know how, inventions, patents, patent applications, moral rights and all other proprietary rights, whether registered or unregistered.
+--> 
+--> 1.5 “License” means a license granted under Section 2.1.
+--> 
+--> 1.6 “License Key” means a serial number that enables You to activate and use the Software.
+--> 
+--> 1.7 “License Term” means the duration of a License as specified in the Order.
+--> 
+--> 1.8 “License Type” means the type of License applicable to the Software, as more fully described in the Order.
+--> 
+--> 1.9 “Open Source Software” or “OSS” means software components that are licensed under a license approved by the Open Source Initiative (“OSI”) or similar open source or freeware license and are embedded in the delivered Software.
+--> 
+--> 1.10 “Order” means a purchase order, enterprise license agreement, or other ordering document issued by You to VMware or a VMware authorized reseller that references and incorporates this EULA and is accepted by VMware as set forth in Section 4.
+--> 
+--> 1.11 “Product Guide” means the current version of the VMware Product Guide at the time of Your Order, copies of which are found at www.vmware.com/download/eula.
+--> 
+--> 1.12 “Services Terms” means VMware’s then-current Support and Subscription Contract Terms and Conditions, copies of which are found at www.vmware.com/files/pdf/support/support_terms_conditions.pdf.
+--> 
+--> 1.13 “Software” means the VMware Tools and the VMware computer programs listed on VMware’s commercial price list to which You acquire a license under an Order, together with any software code relating to the foregoing that is provided to You pursuant to a support and subscription service contract and that is not subject to a separate license agreement.
+--> 
+--> 1.14 “Territory” means the country or countries in which You have been invoiced; provided, however, that if You have been invoiced within any of the European Economic Area member states, You may deploy the corresponding Software throughout the European Economic Area.
+--> 
+--> 1.15 “Third Party Agent” means a third party delivering information technology services to You pursuant to a written contract with You.
+--> 
+--> 1.16 “Virtual Machine” means a software container that can run its own operating system and execute applications like a physical machine.
+--> 
+--> 1.17 “VMware” means VMware, Inc., a Delaware corporation, if You are purchasing Licenses or services for use in the United States and VMware International Limited, a company organized and existing under the laws of Ireland, for all other purchases.
+--> 
+--> 1.18 “VMware Tools” means the suite of utilities and drivers, Licensed by VMware under the “VMware Tools” name, that can be installed in a Guest Operating System to enhance the performance and functionality of a Guest Operating System when running in a Virtual Machine.
+--> 
+--> 2. LICENSE GRANT.
+--> 
+--> 2.1 Scope of License. Subject to the terms and conditions of this EULA, VMware grants You, during the License Term, a non-exclusive, non-transferable License to use the Software, in executable code form only, within the Territory, for Your internal operations in accordance with (a) the Documentation; (b) the License Type for which You have paid the applicable fees; (c) other applicable limitations set forth in the Order. The License to the Software is limited to the quantities specified in each applicable Order.
+--> 
+--> 2.2 Third Party Use. Under the License granted to You in Section 2.1 above, You may permit Your Third Party Agents to access, use and/or operate the Software on Your behalf for the sole purpose of delivering services to You, provided that You will be fully responsible for Your Third Party Agents’ compliance with terms and conditions of this EULA and any breach of this EULA by a Third Party Agent shall be deemed to be a breach by You.
+--> 
+--> 2.3 Permitted Copies. You may make one copy of the Software for archival purposes only. The copy shall: (a) be kept within Your possession or control; (b) include all titles, trademarks, and copyright and restricted rights notices in the original; and (c) be subject to this EULA. You may not otherwise copy the Software without VMware’s prior written consent.
+--> 
+--> 2.4 Benchmarking. You may use the Software to conduct internal performance testing and benchmarking studies. You may only publish or otherwise distribute the results of such studies to third parties as follows: (a) if with respect to VMware’s Workstation or Fusion products, only if You provide a copy of Your study to benchmark@vmware.com prior to distribution; (b) if with respect to any other Software, only if VMware has reviewed and approved of the methodology, assumptions and other parameters of the study (please contact VMware at benchmark@vmware.com to request such review and approval) prior to such publication and distribution.
+--> 
+--> 2.5 VMware Tools. You may distribute the VMware Tools (whether or not as part of the Virtual Machine You create with the Software) to third parties solely when installed in a Guest Operating System to enhance its performance and functionality when running in a Virtual Machine, provided that You will be fully responsible for such third parties’ compliance with the terms and conditions of this EULA, and any breach of this EULA by any such third party shall be deemed to be a breach of this EULA by You.
+--> 
+--> 2.6 Open Source Software. Notwithstanding anything herein to the contrary, Open Source Software is licensed to You under such OSS’s own applicable license terms, which can be found in the open_source_licenses.txt file, the Documentation or as applicable, the corresponding source files for the Software available at www.vmware.com/download/open_source.html. These OSS license terms are consistent with the license granted in Section 2, and may contain additional rights benefiting You. The OSS license terms shall take precedence over this EULA to the extent that this EULA imposes greater restrictions on You than the applicable OSS license terms.
+--> 
+--> 3. RESTRICTIONS; OWNERSHIP.
+--> 
+--> 3.1 Restrictions. You acknowledge that the Software and the structure, organization and source code of the Software constitute valuable trade secrets of VMware. Accordingly, except as expressly permitted in Section 2 or as otherwise authorized by VMware in writing, You will not and will not permit any third party to: (a) sell, lease, license, distribute, sublicense or otherwise transfer in whole or in part the Software or Documentation to any third party; (b) decompile, disassemble, reverse engineer, or otherwise attempt to derive source code from the Software, in whole or in part; (c) copy the Software, except for archival purposes, as set out in Section 2.3; (d) create, develop, license, install, use, or deploy any software or services to circumvent, enable, modify or provide access, permissions or rights which violate the technical restrictions of the Software as described in this EULA; (e) translate, modify or create derivative works based upon the Software; (f) permit any use of or access to the Software by any third party; (g) remove any product identification, proprietary, copyright or other notices contained in the Software; or (h) operate the Software on behalf of or for the benefit of any third party, including the operation of any service that is accessed by a third party, except that, for the purposes of this Section 3.1 (h), You may use the Software to deliver hosted services to Your Affiliates.
+--> 
+--> 3.2 Decompilation. Notwithstanding the foregoing, decompiling the Software is permitted to the extent the laws of the Territory give You the express right to do so to obtain information necessary to render the Software interoperable with other software; provided, however, You must first request such information from VMware (at info@vmware.com), provide all reasonably requested information to allow VMware to assess Your claim, and VMware may, in its discretion, either provide such interoperability information to You, impose reasonable conditions, including a reasonable fee, on such use of the Software, or offer to provide alternatives to ensure that VMware’s proprietary rights in the Software are protected and to reduce any adverse impact on VMware’s proprietary rights.
+--> 
+--> 3.3 Ownership. The Software and Documentation, all copies and portions thereof, and all improvements, enhancements, modifications and derivative works thereof, and all Intellectual Property Rights therein, are and shall remain the sole and exclusive property of VMware and its licensors. Your rights to use the Software and Documentation shall be limited to those expressly granted in this EULA and any applicable Order. No other rights with respect to the Software or any related Intellectual Property Rights are implied. You are not authorized to use (and shall not permit any third party to use) the Software, Documentation or any portion thereof except as expressly authorized by this EULA or the applicable Order.
+--> 
+--> 3.4 Guest Operating Systems. Certain Software allows Guest Operating Systems and application programs to run on a computer system. You acknowledge that You are responsible for obtaining and complying with any licenses necessary to operate any such third-party software.
+--> 
+--> 4. ORDER.Your Order is subject to this EULA. No Orders are binding on VMware until accepted by VMware. Orders for Software are deemed to be accepted upon VMware’s delivery of the Software included in such Order. Orders issued to VMware do not have to be signed to be valid and enforceable.
+--> 
+--> 5. AUDIT RIGHTS.
+--> 
+--> 5.1 Records. You will, during the License Term for any Software licenses acquired under this EULA (and for a period of two (2) years from the expiration of the applicable License Term), maintain accurate records of your use of the Software sufficient to demonstrate Your compliance with the terms of this EULA and all Orders.
+--> 
+--> 5.2 Audit Rights. During the period in which the You are obligated to maintain such records, VMware, or its third party auditor, may, upon reasonable notice to You, audit such records to verify that You have (a) used the Software solely in the manner authorized herein; (b) paid all applicable license fees; and (c) otherwise complied with the terms of this EULA and all Orders. VMware may conduct no more than one (1) audit in any twelve (12) month period. Audits will be conducted during normal business hours and VMware will use commercially reasonable efforts to minimize the disruption of Your normal business activities. VMware, and any third-party auditor, shall not have physical access to Your computing devices in connection with any such audit, without Your prior written consent. You will reasonably cooperate with VMware and/or its third-party auditor and will promptly pay directly to VMware any underpayments revealed by such audit. You will promptly reimburse VMware for all reasonable costs and expenses incurred by VMware for such audit if: (i) such audit reveals an underpayment by You of more than five percent (5%) of the fees payable by You to VMware for the period audited, or (ii) such audit reveals You have materially failed to maintain accurate records of Your use of the Software.
+--> 
+--> 6. SUPPORT AND SUBSCRIPTION SERVICES. Except as expressly specified in the Product Guide, VMware does not provide any support or subscription services for the Software under this EULA. You have no rights to any updates, upgrades or extensions or enhancements to the Software developed by VMware unless you separately purchase VMware support or subscription services. These support or subscription services are subject to the Services Terms.
+--> 
+--> 7. WARRANTIES.
+--> 
+--> 7.1 Software Warranty. VMware warrants to You that the Software will, for a period of ninety (90) days following delivery (“Warranty Period”), substantially conform to the applicable Documentation, provided that the Software (a) has been properly installed and used at all times and in accordance with the applicable Documentation; and (b) has not been modified or added to by persons other than VMware or its authorized representative. VMware will, at its own expense and as its sole obligation and Your exclusive remedy for any breach of the foregoing warranty, either replace the applicable Software or correct any reproducible error in the Software reported to VMware by You in writing during the Warranty Period. If VMware determines that it is unable to correct the error or replace the Software, VMware will refund to You all License fees actually paid by You, in which case the License for the applicable Software and Your right to use such Software will terminate.
+--> 
+--> 7.2 Disclaimer of Warranties. THE EXPRESS WARRANTY IN SECTION 7.1 ABOVE IS IN LIEU OF AND, TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, VMWARE AND ITS LICENSORS DISCLAIM, ALL OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY, INCLUDING ANY IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE, TITLE, NON-INFRINGEMENT AND ANY WARRANTIES ARISING FROM COURSE OF DEALING OR COURSE OF PERFORMANCE) REGARDING OR RELATING TO THE SOFTWARE, THE DOCUMENTATION, OR ANY MATERIALS FURNISHED OR PROVIDED TO YOU UNDER THIS EULA. VMWARE AND ITS LICENSORS DO NOT WARRANT THAT THE SOFTWARE WILL OPERATE UNINTERRUPTED OR THAT IT WILL BE FREE FROM DEFECTS OR THAT THE SOFTWARE WILL MEET (OR IS DESIGNED TO MEET) YOUR BUSINESS REQUIREMENTS.
+--> 
+--> 8. INTELLECTUAL PROPERTY INDEMNIFICATION.
+--> 
+--> 8.1 Defense and Indemnification. Subject to the remainder of this Section 8, VMware shall defend You against any third party claim that the Software infringes any patent, trademark or copyright of such third party, or misappropriates a trade secret (but only to the extent that such misappropriation is not a result of Your actions) under the laws of: (a) the United States and Canada; (b) the European Economic Area; (c) Australia; (d) New Zealand; (e) Japan; or (f) the People’s Republic of China, to the extent that such countries are part of the Territory for the License ( “Infringement Claim”) and indemnify You from the resulting costs and damages finally awarded against You to such third party by a court of competent jurisdiction or agreed to in settlement; provided that You: (i) promptly provide VMware with notice of such Infringement Claim; (ii) allow VMware sole control over the defense thereof and related settlement negotiation; and (iii) reasonably cooperate in response to VMware requests for assistance. You may not settle or compromise any Infringement Claim without the prior written consent of VMware.
+--> 
+--> 8.2 Remedies. Should the Software become, or in VMware’s opinion be likely to become, the subject of an Infringement Claim, VMware will, at VMware’s option and expense either: (a) procure the rights necessary for You to make continued use of the affected Software in accordance with this EULA; (b) replace or modify the affected Software to make it non-infringing; or (c) terminate the License to the affected Software and discontinue the related support services, and, upon Your certified deletion of the affected Software, refund: (i) the fees paid by You for the License to the affected Software, less straight-line depreciation over a three (3) year useful life beginning on the date such Software was delivered; and (ii) any pre-paid service fee attributable to related support services to be delivered after the date such service is stopped. Nothing in this Section 8.2 shall limit VMware’s obligation under Section 8.1 to defend and indemnify You, provided that You replace the allegedly infringing Software upon VMware’s making alternate Software available to You and/or You discontinue using the allegedly infringing Software upon receiving VMware’s notice terminating the affected License.
+--> 
+--> 8.3 Exclusions. Notwithstanding the foregoing, VMware will have no obligation under this Section 8 or otherwise with respect to any claim based on: (a) a combination of Software with non-VMware products (other than non-VMware products that are listed on the Order and used in an unmodified form); (b) use for a purpose or in a manner for which the Software was not designed; (c) use of any older version of the Software when use of a newer VMware revision would have avoided the infringement; (d) any modification to the Software made without VMware’s express written approval; (e) any claim that relates to open source software or freeware technology or any derivatives or other adaptations thereof that is not embedded by VMware into Software listed on VMware’s commercial price list; (f) any claim that relates to Linux or Android open source software, even when it has been embedded into or distributed with the Software or (g) any Software provided on a no charge, beta or evaluation basis. THIS SECTION 8 STATES YOUR SOLE AND EXCLUSIVE REMEDY AND VMWARE’S ENTIRE LIABILITY FOR ANY INFRINGEMENT CLAIMS OR ACTIONS.
+--> 
+--> 9. LIMITATION OF LIABILITY.
+--> 
+--> 9.1 Limitation of Liability. TO THE MAXIMUM EXTENT MANDATED BY LAW, IN NO EVENT WILL VMWARE AND ITS LICENSORS BE LIABLE FOR ANY LOST PROFITS OR BUSINESS OPPORTUNITIES, LOSS OF USE, LOSS OF REVENUE, LOSS OF GOODWILL, BUSINESS INTERRUPTION, LOSS OF DATA, OR ANY OTHER INDIRECT, SPECIAL, INCIDENTAL, OR CONSEQUENTIAL DAMAGES UNDER ANY THEORY OF LIABILITY, WHETHER BASED IN CONTRACT, TORT, NEGLIGENCE, PRODUCT LIABILITY, OR OTHERWISE. BECAUSE SOME JURISDICTIONS DO NOT ALLOW THE EXCLUSION OR LIMITATION OF LIABILITY FOR CONSEQUENTIAL OR INCIDENTAL DAMAGES, THE PRECEDING LIMITATION MAY NOT APPLY TO YOU. VMWARE’S AND ITS LICENSORS’ LIABILITY UNDER THIS EULA WILL NOT, IN ANY EVENT, REGARDLESS OF WHETHER THE CLAIM IS BASED IN CONTRACT, TORT, STRICT LIABILITY, OR OTHERWISE, EXCEED THE LICENSE FEES YOU PAID FOR THE SOFTWARE, IF ANY. THE FOREGOING LIMITATIONS SHALL APPLY REGARDLESS OF WHETHER VMWARE OR ITS LICENSORS HAVE BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES AND REGARDLESS OF WHETHER ANY REMEDY FAILS OF ITS ESSENTIAL PURPOSE.
+--> 
+--> 9.2 Further Limitations. VMware’s licensors shall have no liability of any kind under this EULA and VMware’s liability with respect to any third party software embedded in the Software shall be subject to Section 9.1. You may not bring a claim under this EULA more than eighteen (18) months after the cause of action arises.
+--> 
+--> 10. TERMINATION.
+--> 
+--> 10.1 License Term. This EULA will terminate in its entirety upon the termination of the License Term, unless terminated earlier under this Section 10.
+--> 
+--> 10.2 Termination for Breach. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if: (a) You breach any provision in Section 3 and do not cure the breach within ten (10) days after receiving written notice thereof from VMware; (b) You fail to pay any portion of the fees under an applicable Order within ten (10) days after receiving written notice from VMware that payment is past due; (c) You breach any other provision of this EULA and don’t not cure the breach within thirty (30) days after receiving written notice thereof from VMware; or (d) You commit a material breach that is not capable of being cured.
+--> 
+--> 10.3 Termination for Insolvency. VMware may terminate this EULA in its entirety effective immediately upon written notice to You if You: (a) terminate or suspend your business; (b) become insolvent, admit in writing Your inability to pay Your debts as they mature, make an assignment for the benefit of creditors; or become subject to control of a trustee, receiver or similar authority; or (c) become subject to any bankruptcy or insolvency proceeding.
+--> 
+--> 10.4 Effect of Termination. If VMware terminates this EULA under this Section 10: (a) all Licensed rights to all Software granted to You under this EULA will immediately cease to exist; and (b) You must promptly discontinue all use of all Software, and (destroy all copies of the Software and all License Key(s)) and return, or if requested by VMware, destroy, any related VMware Confidential Information in Your possession or control and certify in writing to VMware that You have fully complied with these requirements. Sections 1 (Definitions), 2.6 (Open Source Software), 3 (Restrictions; Ownership), 5.1 (Records), 5.2 (Audit Rights), 7.2 (Disclaimer of Warranties), 9 (Limitation of Liability), 10 (Termination), 11 (Confidential Information) and 12 (General) will any survive termination of this EULA.
+--> 
+--> 11. CONFIDENTIAL INFORMATION.
+--> 
+--> 11.1 Definition. “Confidential Information” means information or materials provided by one party ( “Discloser”) to the other party ( “Recipient”) which are in tangible form and labeled “confidential” or the like, or, information which a reasonable person knew or should have known to be confidential. The following information shall be considered Confidential Information whether or not marked or identified as such: (a) License Keys; (b) information regarding VMware’s pricing, product roadmaps or strategic marketing plans; and (c) non-public materials relating to the Software.
+--> 
+--> 11.2 Protection. Recipient may use Confidential Information of Discloser; (a) to exercise its rights and perform its obligations under this EULA; or (b) in connection with the parties’ ongoing business relationship. Recipient will not use any Confidential Information of Discloser for any purpose not expressly permitted by the EULA, and will disclose the Confidential Information of Discloser only to the employees or contractors of Recipient who have a need to know such Confidential Information for purposes of the EULA and who are under a duty of confidentiality no less restrictive than Recipient’s duty hereunder. Recipient will protect Confidential Information from unauthorized use, access, or disclosure in the same manner as Recipient protects its own confidential or proprietary information of a similar nature but with no less than reasonable care.
+--> 
+--> 11.3 Exceptions. Recipient’s obligations under Section 11.2 with respect to any Confidential Information will terminate if Recipient can show by written records that such information: (a) was already known to Recipient at the time of disclosure by Discloser; (b) was disclosed to Recipient by a third party who had the right to make such disclosure without any confidentiality restrictions; (c) is, or through no fault of Recipient has become, generally available to the public; or (d) was independently developed by Recipient without access to, or use of, Discloser’s Information. In addition, Recipient will be allowed to disclose Confidential Information to the extent that such disclosure is required by law or by the order of a court of similar judicial or administrative body, provided that Recipient notifies Discloser of such required disclosure promptly and in writing and cooperates with Discloser, at Discloser’s request and expense, in any lawful action to contest or limit the scope of such required disclosure.
+--> 
+--> 11.4 Data Privacy. You agree that VMware may process technical and related information about Your use of the Software which may include internet protocol address, hardware identification, operating system, application software, peripheral hardware, and non-personally identifiable Software usage statistics to facilitate the provisioning of updates, support, invoicing or online services and may transfer such information to other companies in the VMware worldwide group of companies from time to time. To the extent that this information constitutes personal data, VMware shall be the controller of such personal data. To the extent that it acts as a controller, each party shall comply at all times with its obligations under the local legislation applicable in the Territory for the protection of individuals with regard to the processing of personal data. Collected data is subject to VMware’s Privacy Policy at http://www.vmware.com/help/privacy.html.
+--> 
+--> 12. GENERAL.
+--> 
+--> 12.1 Assignment. This EULA and any Orders, and any of Your rights or obligations thereunder, may not be assigned, subcontracted or transferred by You, in whole or in part, whether voluntary, by operation of contract, law or otherwise, without the prior written consent of VMware. Any attempted assignment or transfer in violation of the foregoing will be null and void. Subject to the foregoing, this EULA will be binding upon and will inure to the benefit of the parties and their respective successors and assigns.
+--> 
+--> 12.2 Notices. Any notice delivered by VMware to You under this EULA will be delivered via mail, email or fax.
+--> 
+--> 12.3 Waiver. The waiver of a breach of any provision of this EULA shall not constitute a waiver of any other provision or any subsequent breach.
+--> 
+--> 12.4 Severability. If any provision of this EULA is held to be illegal, invalid or unenforceable, the provision will be enforced to the maximum extent permissible so as to effect the intent of the parties, and the remaining provisions of this EULA will remain in full force and effect.
+--> 
+--> 12.5 Compliance with Laws; Export Control; Government Regulations. Each party shall comply with all laws applicable to the actions contemplated by this EULA. You acknowledge that the Software is of United States origin, is provided subject to the U.S. Export Administration Regulations, may be subject to the export control laws of the applicable territory, and that diversion contrary to applicable export control laws is prohibited. You represent that (1) you are not, and are not acting on behalf of, (a) any person who is a citizen, national, or resident of, or who is controlled by the government of any country to which the United States has prohibited export transactions; or (b) any person or entity listed on the U.S. Treasury Department list of Specially Designated Nationals and Blocked Persons, or the U.S. Commerce Department Denied Persons List or Entity List; and (2) you will not permit the Software to be used for, any purposes prohibited by law, including, any prohibited development, design, manufacture or production of missiles or nuclear, chemical or biological weapons. The Software and accompanying documentation are deemed to be “commercial computer software” and “commercial computer software documentation”, respectively, pursuant to DFAR Section 227.7202 and FAR Section 12.212(b), as applicable. Any use, modification, reproduction, release, performing, displaying or disclosing of the Software and documentation by the U.S. Government shall be governed solely by the terms and conditions of this EULA.
+--> 
+--> 12.6 Construction. The headings of sections of this EULA are for convenience and are not to be used in interpreting this EULA. As used in this EULA, the word ‘including’ means “including but not limited to.”
+--> 
+--> 12.7 Governing Law. This EULA is governed by the laws of the State of California, United States of America, unless mandated by other law. The United Nations Convention for the International Sale of Goods shall not apply.
+--> 
+--> 12.8 Third Party Rights. Other than as expressly set out in this EULA, this EULA does not create any rights for any person who is not a party to it, and no person who is not a party to this EULA may enforce any of its terms or rely on any exclusion or limitation contained in it.
+--> 
+--> 12.9 Product Guide. In addition to the above sections, Your use of the Software is subject to the terms and conditions of the Product Guide, which is incorporated herein by reference.
+--> 
+--> 12.10 Order of Precedence. In the event of conflict or inconsistency among the Product Guide, this EULA and the Order, the following order of precedence shall apply: (a) the Product Guide, (b) this EULA and (c) the Order. With respect to any inconsistency between this EULA and an Order, the terms of this EULA shall supersede and control over any conflicting or additional terms and conditions of any Order, acknowledgement or confirmation or other document issued by You, unless the parties execute a written agreement expressly indicating: (i) that such Order shall modify this EULA; or (ii) that the terms of such Order shall supersede and control in the event of any inconsistency.
+--> 
+--> 12.11 Entire Agreement. This EULA, including accepted Orders and any amendments hereto, and the Product Guide contain the entire agreement of the parties with respect to the subject matter of this EULA and supersede all previous or contemporaneous communications, representations, proposals, commitments, understandings and agreements, whether written or oral, between the parties regarding the subject matter hereof. This EULA may be amended only in writing signed by authorized representatives of both parties.
+--> 
+--> 12.12 Contact Information. Please direct legal notices or other correspondence to VMware, Inc., 3401 Hillview Avenue, Palo Alto, California 94304, United States of America. If You have any questions concerning this EULA, please send an email to info@vmware.com."
+-->             ], 
+-->             ovfSection = <unset>, 
+-->             ovfEnvironmentTransport = <unset>, 
+-->             installBootRequired = false, 
+-->             installBootStopDelay = 0
+-->          }, 
+-->          ftInfo = (vim.vm.FaultToleranceConfigInfo) null, 
+-->          repConfig = (vim.vm.ReplicationConfigSpec) null, 
+-->          vAppConfigRemoved = <unset>, 
+-->          vAssertsEnabled = <unset>, 
+-->          changeTrackingEnabled = <unset>, 
+-->          firmware = <unset>, 
+-->          maxMksConnections = <unset>, 
+-->          guestAutoLockEnabled = <unset>, 
+-->          managedBy = (vim.ext.ManagedByInfo) null, 
+-->          memoryReservationLockedToMax = <unset>, 
+-->          nestedHVEnabled = <unset>, 
+-->          vPMCEnabled = <unset>, 
+-->          scheduledHardwareUpgradeInfo = (vim.vm.ScheduledHardwareUpgradeInfo) null, 
+-->          vmProfile = <unset>, 
+-->          messageBusTunnelEnabled = <unset>, 
+-->          crypto = (vim.encryption.CryptoSpec) null, 
+-->          migrateEncryption = <unset>, 
+-->          sgxInfo = (vim.vm.SgxInfo) null, 
+-->          ftEncryptionMode = <unset>, 
+-->          guestMonitoringModeInfo = (vim.vm.GuestMonitoringModeInfo) null, 
+-->          sevEnabled = <unset>, 
+-->          virtualNuma = (vim.vm.VirtualNuma) null, 
+-->          motherboardLayout = <unset>, 
+-->          pmemFailoverEnabled = <unset>, 
+-->          vmxStatsCollectionEnabled = <unset>, 
+-->          vmOpNotificationToAppEnabled = <unset>, 
+-->          vmOpNotificationTimeout = <unset>, 
+-->          deviceSwap = (vim.vm.VirtualDeviceSwap) null, 
+-->          simultaneousThreads = <unset>, 
+-->          pmem = (vim.vm.VirtualPMem) null
+-->       }, 
+-->       resPoolEntity = <unset>
+-->    }, 
+-->    fileItem = (vim.OvfManager.FileItem) [
+-->       (vim.OvfManager.FileItem) {
+-->          deviceId = "/Holo-A-CB-01a/VirtualLsiLogicController0:0", 
+-->          path = "VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk", 
+-->          compressionMethod = "", 
+-->          chunkSize = <unset>, 
+-->          size = 21046722048, 
+-->          cimType = 17, 
+-->          create = false
+-->       }, 
+-->       (vim.OvfManager.FileItem) {
+-->          deviceId = "/Holo-A-CB-01a/VirtualLsiLogicController0:1", 
+-->          path = "VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk", 
+-->          compressionMethod = "", 
+-->          chunkSize = <unset>, 
+-->          size = 11859456, 
+-->          cimType = 17, 
+-->          create = false
+-->       }
+-->    ], 
+-->    warning = <unset>, 
+-->    error = <unset>
+--> }
+--> 
+2022-08-07T22:13:09.400Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:13:09.400Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:13:09.400Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 5.0...
+2022-08-07T22:13:09.400Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 5.0 -> 5.0.0
+2022-08-07T22:13:09.481Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:13:09.481Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:13:09.481Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 4.1...
+2022-08-07T22:13:09.481Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2022-08-07T22:13:09.577Z verbose OVFTool[05196] [Originator@6876 sub=Default] HttpNfcLease:
+--> (vim.HttpNfcLease.Info) {
+-->    lease = 'vim.HttpNfcLease:session[52547846-f01b-57c9-1577-fa9bd20b9ee2]520f8631-2fa0-30cb-a1e8-b19120154705', 
+-->    entity = 'vim.VirtualMachine:514', 
+-->    deviceUrl = (vim.HttpNfcLease.DeviceUrl) [
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/514/VirtualLsiLogicController0:0", 
+-->          importKey = "/Holo-A-CB-01a/VirtualLsiLogicController0:0", 
+-->          url = "https://*/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk", 
+-->          sslThumbprint = "8F:26:6C:00:03:82:48:E3:9F:BC:36:A2:52:E6:CE:36:02:33:39:14", 
+-->          disk = true, 
+-->          targetId = "Holo-A-CB-01a-0.vmdk", 
+-->          datastoreKey = "ha", 
+-->          fileSize = <unset>
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/514/VirtualLsiLogicController0:1", 
+-->          importKey = "/Holo-A-CB-01a/VirtualLsiLogicController0:1", 
+-->          url = "https://*/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk", 
+-->          sslThumbprint = "8F:26:6C:00:03:82:48:E3:9F:BC:36:A2:52:E6:CE:36:02:33:39:14", 
+-->          disk = true, 
+-->          targetId = "Holo-A-CB-01a-1.vmdk", 
+-->          datastoreKey = "ha", 
+-->          fileSize = <unset>
+-->       }, 
+-->       (vim.HttpNfcLease.DeviceUrl) {
+-->          key = "/514/nvram", 
+-->          importKey = "/Holo-A-CB-01a/nvram", 
+-->          url = "https://*/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a.nvram", 
+-->          sslThumbprint = "8F:26:6C:00:03:82:48:E3:9F:BC:36:A2:52:E6:CE:36:02:33:39:14", 
+-->          disk = false, 
+-->          targetId = <unset>, 
+-->          datastoreKey = <unset>, 
+-->          fileSize = <unset>
+-->       }
+-->    ], 
+-->    totalDiskCapacityInKB = 157286400, 
+-->    leaseTimeout = 300, 
+-->    hostMap = (vim.HttpNfcLease.DatastoreLeaseInfo) [
+-->       (vim.HttpNfcLease.DatastoreLeaseInfo) {
+-->          datastoreKey = "ha", 
+-->          hosts = (vim.HttpNfcLease.HostInfo) [
+-->             (vim.HttpNfcLease.HostInfo) {
+-->                url = "https://*/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/", 
+-->                sslThumbprint = "8F:26:6C:00:03:82:48:E3:9F:BC:36:A2:52:E6:CE:36:02:33:39:14"
+-->             }
+-->          ]
+-->       }
+-->    ]
+--> }
+2022-08-07T22:13:09.582Z verbose OVFTool[05196] [Originator@6876 sub=Default] Mapped deviceId '/Holo-A-CB-01a/VirtualLsiLogicController0:0' to URL 'https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk'
+2022-08-07T22:13:09.582Z verbose OVFTool[05196] [Originator@6876 sub=Default] Mapped deviceId '/Holo-A-CB-01a/VirtualLsiLogicController0:1' to URL 'https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk'
+2022-08-07T22:13:09.582Z verbose OVFTool[05196] [Originator@6876 sub=Default] Mapped deviceId '/Holo-A-CB-01a/nvram' to URL 'https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a.nvram'
+2022-08-07T22:13:09.582Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:13:09.590Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2022-08-07T22:13:09.591Z verbose OVFTool[05196] [Originator@6876 sub=Default] Initializing OVF rewriter...
+2022-08-07T22:13:09.592Z verbose OVFTool[05196] [Originator@6876 sub=Default] Using file size as progress measure
+2022-08-07T22:13:09.595Z verbose OVFTool[05196] [Originator@6876 sub=Default] ResourceLoop<2>: uploadFiles:upload mapping:[VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk, /Holo-A-CB-01a/VirtualLsiLogicController0:0, 0],  convert:false, progress:0
+2022-08-07T22:13:09.596Z verbose OVFTool[05196] [Originator@6876 sub=Default] ResourceLoop<2>: uploadFiles:upload mapping:[VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk, /Holo-A-CB-01a/VirtualLsiLogicController0:1, 0],  convert:false, progress:0
+2022-08-07T22:13:09.596Z verbose OVFTool[05196] [Originator@6876 sub=Default] Loading thread, numThreadsQueued: 0, _threadCount: 1
+2022-08-07T22:13:09.596Z verbose OVFTool[05196] [Originator@6876 sub=Default] Wait for complete, numThreadsQueued: 0
+2022-08-07T22:13:09.596Z verbose OVFTool[06904] [Originator@6876 sub=Default] OvfPackageSourceBase getting file source
+2022-08-07T22:13:09.596Z verbose OVFTool[06904] [Originator@6876 sub=Default] Upload disk do no convert
+2022-08-07T22:13:09.611Z verbose OVFTool[06904] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:13:09.612Z verbose OVFTool[06904] [Originator@6876 sub=Default] HttpWriterFactory web request : https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk
+2022-08-07T22:13:09.613Z verbose OVFTool[06904] [Originator@6876 sub=Default] Initializing new curl session
+2022-08-07T22:13:09.643Z warning OVFTool[06904] [Originator@6876 sub=Default] No Proxy Certificate specified.
+2022-08-07T22:13:09.644Z verbose OVFTool[06904] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:13:09.644Z verbose OVFTool[06904] [Originator@6876 sub=Default] https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk is redirected to https://w4-hs6-i1209.eng.vmware.com/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk
+2022-08-07T22:13:09.644Z verbose OVFTool[06904] [Originator@6876 sub=Default] Changing HttpWriterFactory path to https://w4-hs6-i1209.eng.vmware.com/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3
+2022-08-07T22:21:49.538Z verbose OVFTool[06904] [Originator@6876 sub=Default] Closing image source and targets
+2022-08-07T22:21:49.552Z verbose OVFTool[06904] [Originator@6876 sub=Default] Erasing open readers for VMware-Cloud-Builder-4.4.0.0-19312029-system.vmdk
+2022-08-07T22:21:49.638Z verbose OVFTool[06904] [Originator@6876 sub=Default] Filename:Holo-A-CB-01a-0.vmdk, Host:w4-hs6-i1209.eng.vmware.com
+2022-08-07T22:21:49.638Z verbose OVFTool[06904] [Originator@6876 sub=Default] Closing writer. Locator: https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk (Written bytes: 21046722048)
+2022-08-07T22:21:49.638Z verbose OVFTool[06904] [Originator@6876 sub=Default] Openwriter: https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-0.vmdk
+2022-08-07T22:21:49.642Z verbose OVFTool[06904] [Originator@6876 sub=Default] Upload disk do no convert done
+2022-08-07T22:21:49.681Z verbose OVFTool[06904] [Originator@6876 sub=Default] Curl session torn down
+2022-08-07T22:21:49.687Z verbose OVFTool[05196] [Originator@6876 sub=Default] Loading thread, numThreadsQueued: 0, _threadCount: 1
+2022-08-07T22:21:49.688Z verbose OVFTool[05196] [Originator@6876 sub=Default] Wait for complete, numThreadsQueued: 0
+2022-08-07T22:21:49.688Z verbose OVFTool[07968] [Originator@6876 sub=Default] OvfPackageSourceBase getting file source
+2022-08-07T22:21:49.695Z verbose OVFTool[07968] [Originator@6876 sub=Default] Upload disk do no convert
+2022-08-07T22:21:49.708Z verbose OVFTool[07968] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:21:49.708Z verbose OVFTool[07968] [Originator@6876 sub=Default] HttpWriterFactory web request : https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk
+2022-08-07T22:21:49.709Z verbose OVFTool[07968] [Originator@6876 sub=Default] Initializing new curl session
+2022-08-07T22:21:49.747Z warning OVFTool[07968] [Originator@6876 sub=Default] No Proxy Certificate specified.
+2022-08-07T22:21:49.748Z verbose OVFTool[07968] [Originator@6876 sub=Default] Parsing URL...
+2022-08-07T22:21:49.748Z verbose OVFTool[07968] [Originator@6876 sub=Default] https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk is redirected to https://w4-hs6-i1209.eng.vmware.com/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk
+2022-08-07T22:21:49.748Z verbose OVFTool[07968] [Originator@6876 sub=Default] Changing HttpWriterFactory path to https://w4-hs6-i1209.eng.vmware.com/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3
+2022-08-07T22:21:50.084Z verbose OVFTool[07968] [Originator@6876 sub=Default] Closing image source and targets
+2022-08-07T22:21:50.084Z verbose OVFTool[07968] [Originator@6876 sub=Default] Erasing open readers for VMware-Cloud-Builder-4.4.0.0-19312029-data.vmdk
+2022-08-07T22:21:50.180Z verbose OVFTool[07968] [Originator@6876 sub=Default] Filename:Holo-A-CB-01a-1.vmdk, Host:w4-hs6-i1209.eng.vmware.com
+2022-08-07T22:21:50.180Z verbose OVFTool[07968] [Originator@6876 sub=Default] Closing writer. Locator: https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk (Written bytes: 11859456)
+2022-08-07T22:21:50.180Z verbose OVFTool[07968] [Originator@6876 sub=Default] Openwriter: https://w4-hs6-i1209.eng.vmware.com:443/ha-nfc/52306dde-7126-bf8c-eb7a-ca3936205ce3/Holo-A-CB-01a-1.vmdk
+2022-08-07T22:21:50.180Z verbose OVFTool[07968] [Originator@6876 sub=Default] Upload disk do no convert done
+2022-08-07T22:21:50.180Z verbose OVFTool[07968] [Originator@6876 sub=Default] Curl session torn down
+2022-08-07T22:21:50.183Z verbose OVFTool[05196] [Originator@6876 sub=Default] Ovf convertion finished
+2022-08-07T22:21:50.191Z verbose OVFTool[05196] [Originator@6876 sub=Default] Erasing open readers for VMware-Cloud-Builder-4.4.0.0-19312029_OVF10.ova
+2022-08-07T22:21:50.193Z verbose OVFTool[05196] [Originator@6876 sub=Default] [Vi4Target::Complete] started.
+2022-08-07T22:21:52.268Z verbose OVFTool[05196] [Originator@6876 sub=Default] HttpNfcLease: state:ready
+2022-08-07T22:21:52.341Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:21:52.342Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:21:52.342Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 4.1...
+2022-08-07T22:21:52.342Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2022-08-07T22:21:52.392Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:21:52.392Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:21:52.392Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 4.1...
+2022-08-07T22:21:52.392Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2022-08-07T22:21:52.766Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 7.0.3...
+2022-08-07T22:21:52.767Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version1: 7.0.3 -> 7.0.3
+2022-08-07T22:21:52.767Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsing version 4.1...
+2022-08-07T22:21:52.767Z verbose OVFTool[05196] [Originator@6876 sub=Default] Parsed product version2: 4.1 -> 4.1.0
+2022-08-07T22:21:52.811Z info OVFTool[05196] [Originator@6876 sub=Default] WaitForIp for: 'vim.VirtualMachine:514'
+2022-08-07T22:21:52.828Z verbose OVFTool[05196] [Originator@6876 sub=Default] Destruction of ViTarget
